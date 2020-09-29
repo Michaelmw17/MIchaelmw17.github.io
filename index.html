@@ -1,47 +1,156 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    <head>
-        <meta charset="UTF-8">
-        <title>CSS Stylesheets with Relative Paths</title>
-        <link rel="stylesheet" type="text/css" href="htmlbio.css">
-        <title>Student Bio</title>
-      </head>
-      
-      
-      <body>
-        <header>
-          <h1>Student Bio</h1>
-        </header>
-      
-        <div>
-          <div id="container">
-      
-          </div>
-          <div class="main-bio" alt="secetion">
-      
-            
-          </div>
-          <section>
-      
-            <h2>Michael Watt</h2>
-      
-            <img src="https://placehold.it/200x200" alt="Michael Watt">
-            <div class="p">
-              What is Lorem Ipsum?
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<a href="http://www.lipsum.com/">www.lipsum.com</a>
-           </p>
-          </section>
-      
-          <section>
-            <h2>Contact Info</h2>
-            <ul>
-              <li><strong>Email:</strong> <a href="#">Michaelmw@gmail.com</a></li>
-              <li><strong>Github:</strong> <a href="#">Michaelmw17</a></li>
-              <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
-            </ul>
-          </section>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About me</title>
+    <!-- Bootstrap CDN -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Start Nav -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <span class="navbar-brand mb-1 h1">Michael Watt</span>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
         </div>
-      
-      </body>
-      
-      </html>
+      </div>
+    </nav>
+    <!-- End Nav -->
+    <div class="container">
+      <div class="backgroundimg">
+        <div class="about" id="about">
+          <div class="container">
+            <!--Grid row-->
+            <div class="row">
+              <!--Grid column-->
+              <div class="col-md-8">
+                <div class="page-header">
+                  <h2
+                    id="h2"
+                    class="h1-responsive font-weight-bold text-center my-4"
+                  >
+                    About me
+                  </h2>
+                </div>
+                <img
+                  src="http://placehold.it/150x150"
+                  alt="Placeholder"
+                  class="float-left"
+                />
+                <p style="padding: 50px">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Quisque dignissim, felis ut dictum tristique, nibh erat
+                  feugiat libero, sit amet fringilla mauris velit in mi. Duis
+                  tempus felis vitae felis vulputate pretium. Nullam commodo,
+                  est ac auctor ornare, eros nisi fringilla sem, non pulvinar
+                  tortor lorem sit amet sem. Aenean quis erat facilisis,
+                  porttitor ex cursus, luctus enim. Curabitur et metus in lacus
+                  tristique sagittis et in lorem.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about-section-col">
+          <div class="skills">
+            <div class="skill">
+              <div class="title">Web Design</div>
+              <div class="progress">
+                <div class="progress-bar p1"><span>60%</span></div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <div class="title">Html</div>
+              <div class="progress">
+                <div class="progress-bar p2"><span>40%</span></div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <div class="title">CSS</div>
+              <div class="progress">
+                <div class="progress-bar p3"><span>20%</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Footer-->
+      <footer id="sticky-footer" class="py-4 bg-light text-dark-50">
+        <!--Grid row-->
+        <div class="row">
+          <div class="container text-center">
+            <small>Copyright &copy; Michael's Website</small>
+            <!--Grid column-->
+            <div class="col-md">
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="contact.html"
+                    ><i class="fas fa-envelope-square"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://www.facebook.com"
+                    ><i class="fab fa-facebook"></i
+                  ></a>
+                </li>
+
+                <li>
+                  <a href="https://github.com/Michaelmw17"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- Font awesome Github/Facebook/Contact-->
+    <script
+      src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"
+      data-auto-replace-svg="nest"
+    ></script>
+
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+    <!-- Bootstrap JavaScript CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </body>
+</html>

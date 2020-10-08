@@ -3,12 +3,14 @@
   padding: 0;
   font-family: "Sora", sans-serif;
   box-sizing: border-box;
-  scroll-behavior: s;
+  scroll-behavior: smooth;
 }
 body {
   font-family: "Lato", sans-serif;
   background: white;
   margin: 0;
+  animation-duration: 2.5s;
+  animation-name: slidein;
 }
 .navbar {
   background-color: rgba(44, 190, 176, 0.774);
@@ -54,14 +56,27 @@ body {
   padding: 20px;
 }
 .main-content {
-  text-align: left;
+  text-align: center;
   margin-top: 2rem;
   margin-bottom: 3rem;
-  padding-left: 10px;
+  padding: 20px;
   font-size: 16px;
+  font-weight: 500;
+  background-color: rgba(44, 190, 176, 0.774);
+}
+#firstpara {
+  color: white;
+  opacity: 0.9;
+  word-wrap: break-word;
+}
+#abouth2 {
+  color: white;
+}
+#hrwhite1, #hrwhite2 {
+  background-color: white;
 }
 .content-body {
-  line-height: 1.5;
+  line-height: 1;
   color: rgba(0, 0, 0, 0.75);
 }
 .side-content {
@@ -83,18 +98,20 @@ body {
 
 .job-title {
   float: right;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 .card {
   flex: auto;
   padding: 1rem;
-
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
+.card {
+  word-wrap: break-word;
+}
 h2 {
-  font-weight: 500;
+  font-weight: 600;
   text-align: center;
   color: rgba(44, 190, 176, 0.774);
   font-size: 2.1rem;
@@ -109,8 +126,68 @@ h4 {
 
 .contact-form {
   background-color: rgba(192, 191, 191, 0.253);
-  padding: 20px;
+  padding: 30px;
+  padding-right: 30px;
+  word-wrap: break-word;
 }
 .projects {
   background-color: rgba(192, 191, 191, 0.253);;
+}/*SKILLS*/
+.skills-content {
+    padding-left: 20px;
+    flex: auto;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.ul-skills {
+  text-align: center;
+  padding-left: 0;
+  list-style: none;
+}
+
+.li-skills {
+  display: inline-block;
+  margin: 7px;
+  padding: 5px 10px;
+  color: white;
+  background: rgba(44, 190, 176, 0.774);
+  list-style: none;
+  cursor: default;
+  font-size: 1.9em;
+}
+hr {
+  border: none;
+  height: 0.1px;
+  /* Set the hr color */
+  color: rgba(77, 77, 77, 0.534); /* old IE */
+  background-color: rgba(77, 77, 77, 0.534); /* Modern Browsers */
+}
+#para1, #para4 {
+  text-align: center;
+}
+/* .fab {
+  background-color: rgba(44, 190, 175, 0.404);
+  opacity: 0.9;
+} */
+.fab, .fas {
+  color:rgba(44, 190, 176, 0.774);
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+@media (min-width: 768px){
+
 }

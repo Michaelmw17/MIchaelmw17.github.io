@@ -5,127 +5,442 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>About me</title>
     <!-- Bootstrap CDN -->
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="icon" type="image/ico" href="./img/favicon.ico" /> 
     <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Sora:wght@300&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
   </head>
 
   <body>
     <!-- Start Nav -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-light">
-      <div class="container">
-        <span class="navbar-brand mb-1 h1">Michael Watt</span>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
+    <header>
+      <div class="container-fluid">
+        <nav class="navbar fixed-top navbar-dark">
+          <a class="navbar-brand" href="#" id="top-left-title">
+            <img
+              src="/img/android-chrome-192x192-removebg-preview.png"
+              width="30"
+              height="30"
+              alt="#"
+              loading="lazy"
+            />
+            Michael Watt
+          </a> 
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#experience">Experience</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#education"
+                  >Education<span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#projects"
+                  >Projects<span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#skills"
+                  >Skills<span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#contact-form"
+                  >Contact<span class="sr-only">(current)</span></a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
       </div>
-    </nav>
-    <!-- End Nav -->
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <h1 class="display-4">About me</h1> <hr>
-        <p class="lead">Find out more about me <br>by reading below.</p>
+    </header>
+            <div class="header">
+              <div class="jumbotron">
+                <div class="jumbotron-text">
+                  <h1>Michael Watt</h1> <hr>
+                  <p> Full-Stack Web Developer in Sydney, NSW.</p>
+                  <div class="jumbotron-social">
+                    <ul class="ul-social">
+                      <li class="li-social-links">
+                        <a class="social" href="https://github.com/Michaelmw17" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+                          </li>
+                          <li class="li-social-links">
+                            <a class="social" href="https://www.linkedin.com/in/michael-watt-6a76961b3/" target="_blank"><i class="fa fa-linkedin fa-2x " aria-hidden="true"></i></a>
+                          </li>
+                          <!-- <li class="li-social-links">
+                            <a class="social" href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                          </li> -->
+                        </ul>
+                      </div>
+                      <div id="down-arrow">
+                        <span><a href="#about"><i class="fa fa-chevron-down" aria-hidden="true"></i></a></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="container">
+                <!-- BEGIN ABOUT -->
+                  <div class="row white box-shadow">
+                    <div class="side-content"></div>
+                    <div class="main-content">
+                      <div class="content-header">
+                        <a class="about"></a>
+                        <h2 >About</h2> <hr>
+                      </div>
+                      <div id="firstpara" class="content-body">
+                        <p id="para1">Hi, I'm Michael Watt and here's a bit about me!</p><p id="para2">
+                          I am currently completing an intensive Full Stacked Web development course. I started the course as I enjoy the challenges of coding. I have learnt HTML, CSS and more, also wanting to further develop my coding and technology skills and have a goal to become a Full Stacked Web developer.</p> <br> <p>
+                          I am currently employed ( 3-5 days ) in the hospitality industry.
+                          My experience includes 4 years of customer services and sales skills combined with Tafe studies in business studies.<br>
+                          I am a motivated self-starter, able to work well in a team environment and have the ability to work independently towards a common goal. </p> <br>
+                        <p><br> I have a background in business studies and have been bartending for over two years now. I hope for an exciting career change and am always up for a challenge.</p>
+                      </div>
+                    </div>
+                    <div class="side-content"></div>
+                  </div>
+                  <!-- END ABOUT -->
+              </div>
+              <hr>
+              <div id="experience" class="container">
+                <h2>Experience</h2>
+                    <div class="card">
+                      <div class="card-header">
+                        <h4>Club York <span class="job-title">Bartender</span></h4>
+                      </div>
+                      <div class="card-content">
+                        <p>York Bar City Bowling Club is an inner city club, eatery and bar that welcomes club members through the doors to experience our food and warm atmosphere.</p>
+                          <ul>
+                            <li>
+                              Managed the beverage service and customer requests.
+                            </li>
+                            <li>
+                              Maintained stock, managing and restocking pre-shift, reported on loss or damage.
+                            </li>
+                            <li>
+                              Handled cash, credit card and EFT facilities.
+                            </li>
+                            <li>
+                              Participated in team meetings and other work-related meetings.
+                            </li>
+                            <li>
+                              Ensured licensing laws and legislative requirements were adhered to.
+                            </li>
+                            <li>
+                              Ensuring Workplace Health and Safety procedures and processes are adhered to.
+                            </li>
+                          </ul>
+                        
+                      </div>
+                    </div>
+                </div>
+                <div class="container">
+                  <div class="card">
+                    <div class="card-header">
+                      <h4>Rhythm boat Sydney Harbour Cruises <span class="job-title">Bartender</span></h4>
+                    </div>
+                    <div class="card-content">
+                      <p>Rhythm boat Sydney Harbour Cruises are famous for musical, comedy and variety shows on their dinner cruises as well as a popular wedding, party and function venue.</p>
+                        <ul>
+                          <li>
+                            Prepared the outlet for the delivery of a range of functions, events and services from set up, running and pack down
+                          </li>
+                          <li>
+                            Handled cash, credit card and EFT facilities
+                          </li>
+                          <li>
+                            Assisted with beverage and food service 
+                          </li>
+                        </ul>
+                      
+                    </div>
+                  </div>
+              </div>
+              <!--Work-->
+              <div class="container">
+                <div class="card">
+                  <div class="card-header">
+                    <h4>Harris Farm Markets<span class="job-title">Store Attendant</span></h4>
+                  </div>
+                  <div class="card-content">
+                    <p>Harris Farm Markets is an Australian grocery chain with 25 different locations in New South Wales plus a butchers store in Willoughby. The supermarkets specialise in fruit, vegetables, delicatessen and other grocery items.</p>
+                      <ul>
+                        <li>
+                          Assisted customers both face to face and over the telephone regarding enquiries and orders
+                        </li>
+                        <li>
+                          Assisted with stock takes, stock deliveries and movements from cool room to shop floor and operated the pallet jack
+                        </li>
+                        <li>
+                          Trained new staff in stock handling procedures
+                        </li>
+                      </ul>
+                    
+                  </div>
+                </div>
+            </div>
+            
+        <hr>
+        <!--Education-->
+        <div id="education" class="container">
+            <h2>Education</h2>
+              <div class="card">
+                <div class="card-header">
+                  <h4>University of Sydney<span class="job-title">Currently Attending</span></h4>
+                </div>
+                <div class="card-content">
+                  <p>I'm currently studying at USYD as a full stacked web developer, I have learned Html, CSS, Javascript, jquery. </p>
+                    <ul>
+                      <li>
+                        Have recently completed Project 1 - Basket News.
+                      </li>
+                      <li>
+                        Currently studying Node js and ES6. 
+                      </li>
+                    </ul>
+                    
+                </div>
+              </div>
+          </div>
+          <div class="container">
+            <div class="card">
+              <div class="card-header">
+                <h4>TAFE NSW<span class="job-title">2015-17</span></h4>
+              </div>
+              <div class="card-content">
+                <p>
+                </p>
+                  <ul>
+                    <li>
+                      Certificate II and III in Business | TAFE, Northern Beaches						2015 <br>
+                    </li>
+                    <li>
+                      Certificate II, Skills for work and training | TAFE, Crows Nest. 
+                    </li>
+                    <li>
+                      Certificate IV in Business | TAFE, Sydney						2016
+                    </li>
+                    
+
+                  </ul>
+                  
+              </div>
+            </div>
+        </div>
+        <hr>
+        <div id="projects" class="container">
+          <div class="card mb-3">
+            <div class="content-header">
+              <a class="anchor" ></a>
+              <h2>Projects</h2>
+            </div>
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                
+                <img src="https://agr2020xman.github.io/Project_1-Basketball-News/img/basketball-removebg-preview.png" class="card-img" alt="BasketBall-Image">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Basket News</h5> <hr>
+                  <p class="card-text">Welcome to the Basket News web app! Are you a fan of the NBA and want to keep up to date on this seasons player statistics? Do you just want to easily pull up some news archives about your favourite player? Basket News brings all this useful information into one place. Don't believe us? Just try it out and you'll never need to search anywhere else for your NBA stats or news!</p>
+                  <p class="card-text"><small class="text-muted">With - Andre Grech Rachelle Barredo </small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3" >
+            <div class="content-header">
+              <a class="anchor" ></a>
+              <h2>Coming soon</h2>
+            </div>
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                
+                <img src="https://via.placeholder.com/150" class="card-img" alt="Placeholder">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Coming soon</h5> <hr>
+                  <p class="card-text">Coming soon..</p>
+                  <p class="card-text"><small class="text-muted">With - Coming soon </small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- BEGIN SKILLS -->
+        <div id="skills" class="container">
+          <div class="row white box-shadow">
+            <div class="side-content"></div>
+            <div class="main-content">
+              <div class="content-header">
+                <a class="anchor" ></a>
+                <h2>Skills</h2>
+              </div>
+              <div class="content-body">
+                <ul class="ul-skills">
+                  <li class="li-skills">Javascript</li>
+                  <li class="li-skills">HTML</li>
+                  <li class="li-skills">CSS</li>
+                  <li class="li-skills">Bootstrap</li>
+                  <li class="li-skills">jQuery</li>
+                  <li class="li-skills">Node.js</li>
+                  
+            </ul>
+          </div>
+        </div>
+        <div class="side-content"></div>
       </div>
     </div>
-    <div class="container">
-    <div class="backgroundimg">
-      <div class="about" id="about">
-        <div class="container">
+    
+      <div class="contact-form">
+        <section class="mb-4">
+          <!--Section heading-->
+          <!--Section description-->
+          <!-- <p class="text-center w-responsive mx-auto mb-5">Any questions?</p> -->
+
           <!--Grid row-->
-            <div class="row">
-              <!--Grid column-->
-              <div class="col-md-8">
-                <img
-                  src="http://placehold.it/150x150"
-                  alt="Placeholder"
-                  class="float-left"
-                />
-                <p style="padding: 50px">
-                  I am Michael Watt, Who am I? I'm on the road to being a Full Stacked Web Developer. <br> I have a background in business studies and have been bartending for over a year now. I hope for an exciting career change and am always up for a challenge.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="about-section-col">
-          <div class="skills">
-            
-            <div class="skill">
-              <div class="title">Html</div>
-              <div class="progress">
-                <div class="progress-bar p1"><span>70%</span></div>
-              </div>
-            </div>
-            
-            <div class="skill">
-              <div class="title">CSS</div>
-              <div class="progress">
-                <div class="progress-bar p2"><span>70%</span></div>
-              </div>
-            </div>
-                        <div class="skill">
-                          <div class="title">JavaScript</div>
-                          <div class="progress">
-                            <div class="progress-bar p3"><span>50%</span></div>
-                          </div>
-                        </div>
-                        <div class="skill">
-                          <div class="title">Jquery</div>
-                          <div class="progress">
-                            <div class="progress-bar p4"><span>40%</span></div>
-                          </div>
-                        </div>
-          </div>
-        </div>
-      </div>
-      </div>
-      <!--Footer-->
-      <footer class="footer py-3 bg-secondary text-white mt-auto container-fluid">
-        <div class="row text-center">
-          <div class="col-md">
-            <ul class="list-unstyled mb-0">
-              <a class="github-link" href="https://github.com/Michaelmw17"
-              ><small>Copyright &copy; Michael's Website</small><br><i class="fab fa-github"></i></a
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-md-9 mb-md-0 mb-5">
+              <h2>Contact Me</h2>
+
+              <form
+                id="contact-form"
+                name="contact-form"
+                action="mail.php"
+                method="POST"
               >
-              <li>
-                <a href="contact.html"><i class="fas fa-envelope-square"></i></a>
-              </li>
+                <!--Grid row-->
+                <div class="row">
+                  <!--Grid column-->
+                  <div class="col-md-6">
+                    <div class="md-form mb-0">
+                      <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        class="form-control"
+                        size="64"
+                        maxlength="64"
+                        required
+                        placeholder="ie: John Smith"
+                        pattern=""
+                        title="Please provide only an e-mail address"
+                      />
+                      <label for="name" class="">Your name</label>
+                    </div>
+                  </div>
+                  <!--Grid column-->
+                  <div class="col-md-6">
+                    <div class="md-form mb-0">
+                      <input
+                        type="text"
+                        id="email"
+                        name="email"
+                        class="form-control"
+                        size="64"
+                        maxlength="64"
+                        required
+                        placeholder="ie : +@+.com"
+                        pattern=".+@+.com"
+                        title="Please provide only an e-mail address"
+                      />
+                      <label for="email" class="">Your email</label>
+                    </div>
+                  </div>
+                </div>
+                <!--Grid row-->
+                <div class="row">
+                  <!--Grid column-->
+                  <div class="col-md-12">
+                    <div class="md-form mb-0">
+                      <input
+                        type="text"
+                        id="subject"
+                        name="subject"
+                        class="form-control"
+                      />
+                      <label for="subject" class="">Subject</label>
+                    </div>
+                  </div>
+                </div>
+
+                <!--Grid row-->
+                <div class="row">
+                  <!--Grid column-->
+                  <div class="col-md-12">
+                    <div class="md-form">
+                      <textarea
+                        id="message"
+                        name="message"
+                        rows="2"
+                        class="form-control md-textarea"
+                        placeholder="Message"
+                      ></textarea>
+                      <label for="message">Your message</label>
+                    </div>
+                  </div>
+                </div>
+              </form>
+
+              <!--Grid row-->
+              <div class="text-center text-md-center">
+                <a class="btn btn-primary" href="contact.html">Send</a>
+              </div>
+            </div>
+            <!--Grid column-->
+            <div class="col-md-3 text-center">
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <i class="map-marker-alt fa-2x"></i>
+                  <p>Sydney CBD, NSW, AUS</p>
+                </li>
+                <li>
+                  <i class="phone mt-4 fa-2x"></i>
+                  <p>+ 614 496 200 82</p>
+                </li>
               </ul>
+            </div>
           </div>
+        </section>
+      </div>
+    <!--Footer-->
+    <footer class="footer py-3 bg-secondary text-white mt-auto container-fluid">
+      <div class="row text-center">
+        <div class="col-md">
+          <ul class="list-unstyled mb-0">
+            <li>
+            <a class="github-link" href="https://github.com/Michaelmw17"
+            ><small>Copyright &copy; Michael's Website</small><br><i class="fab fa-github"></i></a
+            >
+          </li>
+            <li>
+              <a href="contact.html"><i class="fas fa-envelope-square"></i></a>
+            </li>
+            </ul>
         </div>
-      </footer>
+      </div>
+    </footer>
     <!-- Font awesome Github/Facebook/Contact-->
-    <script
-      src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"
-      data-auto-replace-svg="nest"
-    ></script>
+    <script src="https://kit.fontawesome.com/77b32b6aca.js" crossorigin="anonymous"></script>
 
     <!-- jQuery CDN -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

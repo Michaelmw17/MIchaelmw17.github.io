@@ -2,196 +2,115 @@
   margin: 0;
   padding: 0;
   font-family: "Sora", sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: s;
 }
 body {
-  height: 100%;
-  color: white;
-  font-weight: bold;
-}
-#h2 {
-  font-weight: bolder;
-  font-size: 40px;
-}
-#page-content {
-  flex: 1 0 auto;
-}
-.footer {
-  opacity: 90%;
-}
-#sticky-footer {
-  color: black;
-  margin-bottom: 25px;
-  opacity: 60%;
-  background-color: rgba(0, 0, 0, 0);
-}
-.float-left {
-  margin: 25px;
-}
-.backgroundimg {
-  background-image: url(img/OLIVER.jpg);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  text-align: center;
-  margin: auto;
-  padding: 0;
-
-  opacity: 90%;
-  padding: 25px;
-  margin-bottom: 25px;
-  margin-top: 25px;
+  font-family: "Lato", sans-serif;
+  background: white;
+  margin: 0;
 }
 .navbar {
-  font-weight: bolder;
-  
+  background-color: rgba(44, 190, 176, 0.774);
 }
-#bottom_fade {
-	z-index: 99;
-	position: fixed;
-	bottom: 0%;
-	background-image: url("bottom-fade.png");
+.jumbotron {
+  margin-top: 70px;
+  text-align: center;
+  background-color: rgba(44, 190, 176, 0.774);
+  display: flex;
+  flex-direction: column;
 }
-/* Other Classes for Page Styling */
-body,.css-selector, .navbar, .jumbotron {
-  background: linear-gradient(88deg, #51b9ff, #1b1b1b75);
-  background-size: 400% 400%;
-  -webkit-animation: AnimationName 30s ease infinite;
-  -moz-animation: AnimationName 30s ease infinite;
-  -o-animation: AnimationName 30s ease infinite;
-  animation: AnimationName 30s ease infinite;
+.jumbotron-text {
+  /*TAGLINE UNDER NAME*/
+  font-weight: 200;
+  font-size: 1em;
+  color: white;
+  text-align: center;
+  padding-top: 100px;
 }
-@-webkit-keyframes AnimationName {
-  0%{background-position:0% 51%}
-  50%{background-position:100% 50%}
-  100%{background-position:0% 51%}
+
+.jumbotron-text h1 {
+  /*YOUR NAME*/
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 3em;
+  margin-bottom: 0;
 }
-@-moz-keyframes AnimationName {
-  0%{background-position:0% 51%}
-  50%{background-position:100% 50%}
-  100%{background-position:0% 51%}
+
+/*SOCIAL LINKS*/
+.ul-social {
+  text-align: center;
+  padding-left: 0;
 }
-@-o-keyframes AnimationName {
-  0%{background-position:0% 51%}
-  50%{background-position:100% 50%}
-  100%{background-position:0% 51%}
+
+.li-social-links {
+  display: inline-block;
+  list-style: none;
 }
-@keyframes AnimationName {
-  0%{background-position:0% 51%}
-  50%{background-position:100% 50%}
-  100%{background-position:0% 51%}
+
+.social {
+  font-size: 2em;
+  color: white;
+  padding: 20px;
 }
-.img-thumbnail {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 500%;
-  margin-bottom: 50px;
-  padding: 15px;
-  height: 300px;
-  object-fit: contain;
+.main-content {
+  text-align: left;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  padding-left: 10px;
+  font-size: 16px;
 }
-.skills {
-  padding-left: 30px;
+.content-body {
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.75);
 }
-.skill {
+.side-content {
+  flex: 0 0 16.6%;
+}
+.side-content-sm {
+  flex: 0 0 10%;
+}
+
+.card-content {
+  margin: 10px;
+  padding: 10px;
+  margin-left: 30px;
+}
+.container {
+  margin-top: 20px;
   margin-bottom: 10px;
 }
-.progress {
-  width: 100%;
-  height: 12px;
-  border-radius: 12px;
-}
-.progress-bar {
-  height: 11px;
-  background: #ff7d6f;
-  border-radius: 11px;
-}
-.p1 {
-  width: 70%;
-}
 
-.p2 {
-  width: 70%;
-}
-
-.p3 {
-  width: 50%;
-}
-.p4 {
-  width: 40%;
-}
-.progress-bar span {
+.job-title {
   float: right;
-  margin-right: 6px;
-  line-height: 13px;
-  color: #fff;
-  font-size: 12px;
+  font-size: 1rem;
 }
-#pageFooter {
-  background-color: black;
-}
-@media only screen and (max-width: 480px){
-  .img{
-      height:auto !important;
-      max-width:60px !important;
-      width: 100% !important;
-  }
-}
+.card {
+  flex: auto;
+  padding: 1rem;
 
-.jumbotron {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+h2 {
+  font-weight: 500;
   text-align: center;
-  background: #1a2a6c;  /* fallback for old browsers */
- 
-  background: -webkit-linear-gradient(to right,#d6d6d6, #51b9ff);  /* Chrome 10-25, Safari 5.1-6 */
- 
-  background: linear-gradient(to right,  #51b9ff,#d6d6d6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
- 
- 
-  color: rgba(32, 32, 32, 0.781);
-
+  color: rgba(44, 190, 176, 0.774);
+  font-size: 2.1rem;
+  text-transform: uppercase;
+  text-align: center;
 }
-hr {
-  border: none;
-  height: 1px;
-  /* Set the hr color */
-  color: #333; /* old IE */
-  background-color: #333; /* Modern Browsers */
-}
-.display-4 {
-  font-weight: bold;
+h4 {
+  color: rgba(44, 190, 176, 0.774);
+    margin: 0;
+    font-weight: 200;
 }
 
-.list-unstyled {
-  color: white;
+.contact-form {
+  background-color: rgba(192, 191, 191, 0.253);
+  padding: 20px;
 }
-a {
-  color: blue;
+.projects {
+  background-color: rgba(192, 191, 191, 0.253);;
 }
-a:hover {
-  color: pink;
-}
-
-@media (min-width: 768px) {
-  .col-md-8 {
-    margin: auto;
-  }
-
-  .img {
-    padding: 70px;
-  }
-  .img-thumbnail {
-    padding-right: 10px;
-    padding-left: 10px;
-  }
-}
-@media (max-width: 600px) {
-  .img {
-    width: 100px;
-    align-content: center;
-  }
-}
-
-/* @media (max-width: @screen-xs-max) { ... }
-@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { ... }
-@media (min-width: @screen-md-min) and (max-width: @screen-md-max) { ... }
-@media (min-width: @screen-lg-min) { ... } */

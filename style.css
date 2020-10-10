@@ -9,8 +9,8 @@ body {
   font-family: "Lato", sans-serif;
   background: white;
   margin: 0;
-  animation-duration: 2.5s;
-  animation-name: slidein;
+  /* animation-duration: 2.5s;
+  animation-name: slidein; */
 }
 .navbar {
   background-color: rgba(44, 190, 176, 0.774);
@@ -64,10 +64,18 @@ body {
   font-weight: 500;
   background-color: rgba(44, 190, 176, 0.774);
 }
+#Full-para {
+  font-size: 1.2rem ;
+  font-weight: 500;
+}
 #firstpara {
   color: white;
   opacity: 0.9;
   word-wrap: break-word;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 180%;
 }
 #abouth2 {
   color: white;
@@ -75,6 +83,10 @@ body {
 #hrwhite1, #hrwhite2 {
   background-color: white;
 }
+#minhr1, #minhr2 {
+  background-color: white;
+}
+
 .content-body {
   line-height: 1;
   color: rgba(0, 0, 0, 0.75);
@@ -90,6 +102,12 @@ body {
   margin: 10px;
   padding: 10px;
   margin-left: 30px;
+  font-size: 1rem;
+  line-height: 150%;
+}
+.card-body {
+  font-size: 1rem;
+  font-weight: 500;
 }
 .container {
   margin-top: 20px;
@@ -169,12 +187,27 @@ hr {
 #para1, #para4 {
   text-align: center;
 }
+#gitTag, #appTag {
+  font-size: 16px;
+}
+#footerCopy {
+  color: rgba(44, 190, 176, 0.774);
+}
 /* .fab {
   background-color: rgba(44, 190, 175, 0.404);
   opacity: 0.9;
 } */
-.fab, .fas {
+.fab, .fas, .fa {
   color:rgba(44, 190, 176, 0.774);
+}
+.fab:hover, .fas:hover, .fa:hover, #footerCopy:hover, #appTag:hover, #gitTag:hover {
+  color: rgb(37, 37, 255);
+}
+#firstGitI, #firstLinkndinI, #firstChev {
+  color: white;
+}
+#firstGitI:hover, #firstLinkndinI:hover, #firstChev:hover {
+  color: rgba(0, 0, 248, 0.596);
 }
 
 @keyframes slidein {
@@ -190,4 +223,34 @@ hr {
 }
 @media (min-width: 768px){
 
+}
+.darkmode--activated p, .darkmode--activated li {
+  color: #000;
+
+}
+ 
+.button {
+  isolation: isolate;
+}
+ 
+.darkmode--activated .logo {
+  mix-blend-mode: difference;
+}
+.darkmode-layer, .darkmode-toggle {
+  z-index: 500;
+}
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 30px; /* Place the button at the bottom of the page */
+  left: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: rgb(90, 87, 87); /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
 }

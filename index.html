@@ -86,8 +86,10 @@
       <div class="jumbotron">
         <div class="jumbotron-text">
           <h1>Michael Watt</h1>
-          <hr id="hrwhite1"/>
-          <p>Full-Stack Web Developer in Sydney, NSW.</p>
+          <button onclick="topFunction()" id="myBtn" title="Go to top"><i id="firstChev" class="fa fa-chevron-up" aria-hidden="true"></i>
+          </button>
+          <hr id="hrwhite1" />
+          <p id="Full-para">Full-Stack Web Developer in Sydney, NSW.</p>
           <div class="jumbotron-social">
             <ul class="ul-social">
               <li class="li-social-links">
@@ -95,16 +97,16 @@
                   class="social"
                   href="https://github.com/Michaelmw17"
                   target="_blank"
-                  ><i class="fa fa-github fa-2x" aria-hidden="true"></i
-                ></a>
+                  ><i id="firstGitI" class="fa fa-github fa-2x" aria-hidden="true"></i
+                ></a><hr id="minhr1">
               </li>
               <li class="li-social-links">
                 <a
                   class="social"
                   href="https://www.linkedin.com/in/michael-watt-6a76961b3/"
                   target="_blank"
-                  ><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i
-                ></a>
+                  ><i id="firstLinkndinI" class="fa fa-linkedin fa-2x" aria-hidden="true"></i
+                ></a><hr id="minhr2">
               </li>
               <!-- <li class="li-social-links">
                             <a class="social" href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -114,7 +116,7 @@
           <div id="down-arrow">
             <span
               ><a href="#about"
-                ><i class="fa fa-chevron-down" aria-hidden="true"></i></a
+                ><i id="firstChev" class="fa fa-chevron-down" aria-hidden="true"></i></a
             ></span>
           </div>
         </div>
@@ -127,7 +129,7 @@
           <div class="content-header">
             <a class="about"></a>
             <h2 id="abouth2">About</h2>
-            <hr id="hrwhite2"/>
+            <hr id="hrwhite2" />
           </div>
           <div id="firstpara" class="content-body">
             <p id="para1">Hi, I'm Michael Watt and here's a bit about me!</p>
@@ -323,15 +325,27 @@
               </p>
               <p class="card-text">
                 <small class="text-muted"
-                  >With - Andre Grech Rachelle Barredo
+                  >With - Andre Grech Rachelle Barredo <br />
+                  <a
+                    id="gitTag"
+                    href="https://agr2020xman.github.io/Project_1-Basketball-News/"
+                    ><i class="fa fa-globe fa-lg" aria-hidden="true"></i> - Basket News App</a
+                  >
+                  <br />
+                  
+                  <a
+                    id="appTag"
+                    href="https://github.com/AGr2020Xman/Project_1-Basketball-News"
+                    ><i class="fab fa-github fa-lg"></i> - Basket News Github
+                  </a>
                 </small>
               </p>
             </div>
           </div>
         </div>
       </div>
-      </div>
-      <!-- <div class="card mb-3">
+    </div>
+    <!-- <div class="card mb-3">
         <div class="content-header">
           <a class="anchor"></a>
           <h2>Coming soon</h2>
@@ -357,15 +371,14 @@
         </div>
       </div>
     </div> -->
-    <hr/>
+    <hr />
 
     <!-- BEGIN SKILLS -->
     <div id="skills" class="container">
       <h2>Skills</h2>
       <div class="row">
         <div class="skills-content">
-          <div class="content-header">
-          </div>
+          <div class="content-header"></div>
           <div class="content-body">
             <ul class="ul-skills">
               <li class="li-skills">Javascript</li>
@@ -385,7 +398,7 @@
         </div>
       </div>
     </div>
-    <hr/>
+    <hr />
 
     <h2>Contact Me</h2>
     <div class="contact-form">
@@ -398,7 +411,6 @@
         <div class="row">
           <!--Grid column-->
           <div class="col-md-9 mb-md-0 mb-5">
-
             <form
               id="contact-form"
               name="contact-form"
@@ -487,7 +499,6 @@
           <div class="col-md-3 text-center">
             <ul class="list-unstyled mb-0">
               <li>
-                
                 <i class="fas fa-search-location fa-2x"></i>
                 <p>Sydney CBD, NSW, AUS</p>
               </li>
@@ -510,14 +521,19 @@
         <div class="col-md">
           <ul class="list-unstyled mb-0">
             <li>
-              <a class="github-link" href="https://github.com/Michaelmw17"
+              <a
+                id="footerCopy"
+                class="github-link"
+                href="https://github.com/Michaelmw17/MIchaelmw17.github.io"
                 ><small>Copyright &copy; Michael's Website</small><br /><i
                   class="fab fa-github fa-lg"
                 ></i
               ></a>
             </li>
             <li>
-              <a href="contact.html"><i class="fas fa-envelope-square fa-lg"></i></a>
+              <a href="contact.html"
+                ><i class="fas fa-envelope-square fa-lg"></i
+              ></a>
             </li>
           </ul>
         </div>
@@ -536,6 +552,8 @@
 
     <!-- Bootstrap JavaScript CDN -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+
     <script src="script.js"></script>
   </body>
 </html>

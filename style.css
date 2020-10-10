@@ -209,6 +209,9 @@ hr {
 #firstGitI:hover, #firstLinkndinI:hover, #firstChev:hover {
   color: rgba(0, 0, 248, 0.596);
 }
+#fabSkills1:hover, #fabSkills2:hover, #fabSkills3:hover, #fabSkills4:hover {
+  color: rgba(44, 190, 176, 0.774);
+}
 
 @keyframes slidein {
   from {

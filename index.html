@@ -17,10 +17,7 @@
       href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="path/to/font-awesome/css/font-awesome.min.css"
-    />
+    
   </head>
 
   <body>
@@ -73,7 +70,7 @@
                 >
               </li>
               <li class="nav-item active">
-                <a class="nav-link" href="#contact-form"
+                <a class="nav-link" href="#contactForm"
                   >Contact<span class="sr-only">(current)</span></a
                 >
               </li>
@@ -82,7 +79,7 @@
         </nav>
       </div>
     </header>
-    <div class="header">
+    <div class="intro">
       <div class="jumbotron">
         <div class="jumbotron-text">
           <h1>Michael Watt</h1>
@@ -135,7 +132,7 @@
             <p id="para2">
               I am currently completing an intensive Full Stacked Web
               development course. I started the course as I enjoy the challenges
-              of coding. I have learnt HTML, CSS and more, also wanting to
+              of coding. I have learnt Javascript, HTML, CSS and more, also wanting to
               further develop my coding and technology skills and have a goal to
               become a Full Stacked Web developer.
             </p>
@@ -268,9 +265,8 @@
             developer.
           </p>
           <ul>
-            <li>I have learned Html, CSS, Javascript, jquery.</li>
+            <li>I have learned Html, CSS, Javascript, jquery, node.js, ES6.</li>
             <li>Have recently completed Project 1 - Basket News.</li>
-            <li>Currently studying Node js and ES6.</li>
           </ul>
         </div>
       </div>
@@ -316,9 +312,9 @@
               <hr />
               <p class="card-text">
                 Welcome to the Basket News web app! Are you a fan of the NBA and
+                favourite player? Basket News brings all this useful information
                 want to keep up to date on this seasons player statistics? Do
                 you just want to easily pull up some news archives about your
-                favourite player? Basket News brings all this useful information
                 into one place. Don't believe us? Just try it out and you'll
                 never need to search anywhere else for your NBA stats or news!
               </p>
@@ -398,124 +394,96 @@
       </div>
     </div>
     <hr />
-
-    <h2>Contact Me</h2>
-    <div class="contact-form">
-      <section class="mb-4">
-        <!--Section heading-->
-        <!--Section description-->
-        <!-- <p class="text-center w-responsive mx-auto mb-5">Any questions?</p> -->
-
-        <!--Grid row-->
-        <div class="row">
-          <!--Grid column-->
-          <div class="col-md-9 mb-md-0 mb-5">
-            <form
-              id="contact-form"
-              name="contact-form"
-              action="mail.php"
-              method="POST"
-            >
-              <!--Grid row-->
-              <div class="row">
-                <!--Grid column-->
-                <div class="col-md-6">
-                  <div class="md-form mb-0">
-                    <input
-                      type="text"
-                      id="name"
-                      name="name"
-                      class="form-control"
-                      size="64"
-                      maxlength="64"
-                      required
-                      placeholder="ie: John Smith"
-                      pattern=""
-                      title="Please provide only an e-mail address"
-                    />
-                    <label for="name" class="">Your name</label>
+    <div id="contactForm" class="contact-form">
+            <div class="container">
+              <h2>Contact Me</h2>
+                <form class="needs-validation" novalidate>
+                  
+                  <div class="form-row">
+                    <div class="col-md-4 mb-3">
+                      <label for="validationCustom01">First name</label>
+                      <input type="text" class="form-control" id="validationCustom01" placeholder="First name" value="John" required>
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                      <label for="validationCustom02">Last name</label>
+                      <input type="text" class="form-control" id="validationCustom02" placeholder="Last name" value="Smith" required>
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+                    </div>
+                  </div>
+                    <div class="form-row">
+                      <div class="col-md-12 mb-3">
+                          <!--Grid row-->
+                            <div class="row">
+                              <!--Grid column-->
+                              <div class="col-md-12">
+                                <div class="md-form">
+                                  <label for="message">Your message</label>
+                                  <textarea
+                                    id="message"
+                                    name="message"
+                                    rows="2"
+                                    class="form-control md-textarea"
+                                    placeholder="Message"
+                                  ></textarea>
+                                </div>
+                              </div>
+                            </div>
+                            
+                            <div class="form-row">
+                              <div class="col-md-6 mb-3">
+                              <label for="validationCustom03">City</label>
+                              <input type="text" class="form-control" id="validationCustom03" placeholder="City" required>
+                              <div class="invalid-feedback">
+                                Please provide a valid city.
+                              </div>
+                            </div>
+                        <div class="col-md-3 mb-3">
+                          <label for="validationCustom04">State</label>
+                          <input type="text" class="form-control" id="validationCustom04" placeholder="State" required>
+                          <div class="invalid-feedback">
+                            Please provide a valid state.
+                          </div>
+                        </div>
+                      <div class="col-md-3 mb-3">
+                        <label for="validationCustom05">Zip</label>
+                        <input type="text" class="form-control" id="validationCustom05" placeholder="Zip" required>
+                        <div class="invalid-feedback">
+                          Please provide a valid zip.
+                        </div>
+                      </div>
+                    </div>
+                    
+                  <div class="col col-md-8">
+                  <div class="form-group">
+                  </div>
+                  <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                  <label class="form-check-label" for="invalidCheck">
+                    Agree to terms and conditions
+                  </label>
+                  <div class="invalid-feedback">
+                    You must agree before submitting.
+                  </div>
+                  <div class="col"><br>
+                  <button class="btn btn-primary" type="submit">Submit form</button>
+                  <div class="form-check">
                   </div>
                 </div>
-                <!--Grid column-->
-                <div class="col-md-6">
-                  <div class="md-form mb-0">
-                    <input
-                      type="text"
-                      id="email"
-                      name="email"
-                      class="form-control"
-                      size="64"
-                      maxlength="64"
-                      required
-                      placeholder=" +@+.com"
-                      pattern=".+@+.com"
-                      title="Please provide only an e-mail address"
-                    />
-                    <label for="email" class="">Your email</label>
-                  </div>
-                </div>
-              </div>
-              <!--Grid row-->
-              <div class="row">
-                <!--Grid column-->
-                <div class="col-md-12">
-                  <div class="md-form mb-0">
-                    <input
-                      type="text"
-                      id="subject"
-                      name="subject"
-                      class="form-control"
-                    />
-                    <label for="subject" class="">Subject</label>
-                  </div>
-                </div>
-              </div>
-
-              <!--Grid row-->
-              <div class="row">
-                <!--Grid column-->
-                <div class="col-md-12">
-                  <div class="md-form">
-                    <textarea
-                      id="message"
-                      name="message"
-                      rows="2"
-                      class="form-control md-textarea"
-                      placeholder="Message"
-                    ></textarea>
-                    <label for="message">Your message</label>
-                  </div>
                 </div>
               </div>
-            </form>
-
-            <!--Grid row-->
-            <div class="text-center text-md-center">
-              <a class="btn btn-primary" href="contact.html">Send</a>
             </div>
-          </div>
-          <!--Grid column-->
-          <div class="col-md-3 text-center">
-            <ul class="list-unstyled mb-0">
-              <li>
-                <i class="fas fa-search-location fa-2x"></i>
-                <p>Sydney CBD, NSW, AUS</p>
-              </li>
-              <li>
-                <i class="fas fa-phone-square fa-2x"></i>
-                <p>+ 614 496 200 82</p>
-              </li>
-              <li>
-                <i class="fas fa-envelope-square fa-2x"></i>
-                <p>michaelmw17@outlook.com</p>
-              </li>
-            </ul>
+          </form>
           </div>
         </div>
-      </section>
-    </div>
+        
+
+    
     <!--Footer-->
-    <button onclick="topFunction()" id="myBtn" title="Go to top"><i id="firstChev" class="fa fa-chevron-up" aria-hidden="true"></i>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-chevron-up" aria-hidden="true"></i>
     </button>
     <footer class="footer py-3 bg-secondary text-white mt-auto container-fluid">
       <div class="row text-center">

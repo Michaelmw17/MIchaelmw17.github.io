@@ -81,12 +81,23 @@ body {
 #abouth2 {
   color: white;
 }
-#hrwhite1, #hrwhite2 {
+#hrwhite2 {
   background-color: white;
+  height: 2px;
+  
 }
-#minhr1, #minhr2 {
-  background-color: white;
+#skillsHr, #experienceHr, #educationHr {
+    background-color: white;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+
 }
+/* hr.style-two {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+} */
 
 .content-body {
   line-height: 1;
@@ -129,7 +140,7 @@ body {
 .card {
   word-wrap: break-word;
 }
-h2 {
+h2{
   font-weight: 600;
   text-align: center;
   color: rgba(44, 190, 176, 0.774);
@@ -137,10 +148,20 @@ h2 {
   text-transform: uppercase;
   text-align: center;
 }
-h4 {
+
+#contactH4 {
+  font-weight: 500;
+  text-align: center;
   color: rgba(44, 190, 176, 0.774);
+  font-size: 2.1rem;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+h4  {
+    color: rgba(44, 190, 176, 0.774);
     margin: 0;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 .contact-form {
@@ -281,8 +302,14 @@ hr {
   border-color: rgba(5, 5, 5, 0.438);
   color: white;
 }
+#darkMode {
+  color: rgba(10, 10, 10, 0.233);
+}
+
 @media only screen and (max-width:1200px) and (min-width:500px) {
   #firstpara {
       font-size: 100%;
   }
+  
+
 }

@@ -9,6 +9,7 @@ body {
   font-family: "Lato", sans-serif;
   background: white;
   margin: 0;
+  font-size: 100%;
   /* animation-duration: 2.5s;
   animation-name: slidein; */
 }
@@ -25,7 +26,7 @@ body {
 .jumbotron-text {
   /*TAGLINE UNDER NAME*/
   font-weight: 200;
-  font-size: 1em;
+  font-size: 1rem;
   color: white;
   text-align: center;
   padding-top: 100px;
@@ -59,8 +60,8 @@ body {
   text-align: center;
   margin-top: 2rem;
   margin-bottom: 3rem;
-  padding: 20px;
-  font-size: 16px;
+  padding: 35px;
+  font-size: 1rem;
   font-weight: 500;
   background-color: rgba(44, 190, 176, 0.774);
 }
@@ -72,7 +73,7 @@ body {
   color: white;
   opacity: 0.9;
   word-wrap: break-word;
-  font-size: 1rem;
+  font-size: 130%;
   font-weight: 400;
   letter-spacing: 1px;
   line-height: 180%;
@@ -144,8 +145,8 @@ h4 {
 
 .contact-form {
   background-color: rgba(192, 191, 191, 0.253);
-  padding: 30px;
-  padding-right: 30px;
+  padding: 4px;
+  padding-top: 30px;
   word-wrap: break-word;
 }
 .projects {
@@ -165,9 +166,11 @@ h4 {
   text-align: center;
   padding-left: 0;
   list-style: none;
+  
 }
 
 .li-skills {
+  border-radius: 10px;
   display: inline-block;
   margin: 7px;
   padding: 5px 10px;
@@ -188,7 +191,7 @@ hr {
   text-align: center;
 }
 #gitTag, #appTag {
-  font-size: 16px;
+  font-size: 1rem;
 }
 #footerCopy {
   color: rgba(44, 190, 176, 0.774);
@@ -224,9 +227,7 @@ hr {
     width: 100%;
   }
 }
-@media (min-width: 768px){
 
-}
 .darkmode--activated p, .darkmode--activated li {
   color: #000;
 
@@ -250,12 +251,12 @@ hr {
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color: rgb(90, 87, 87); /* Set a background color */
+  background-color: rgba(90, 87, 87, 0.582); /* Set a background color */
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
-  border-radius: 10px; /* Rounded corners */
-  font-size: 18px; /* Increase font size */
+  border-radius: 19px; /* Rounded corners */
+  font-size: 1.25rem; /* Increase font size */
 }
 #darkBtn {
   display: none; /* Hidden by default */
@@ -265,10 +266,23 @@ hr {
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color: rgb(90, 87, 87); /* Set a background color */
+  background-color: rgba(148, 148, 148, 0.13); /* Set a background color */
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
   border-radius: 10px; /* Rounded corners */
-  font-size: 18px; /* Increase font size */
+  font-size: 1.25rem
+  ; /* Increase font size */
+}
+#upBtn {
+  color: rgb(255, 230, 0);
+}
+.navbar-dark .navbar-toggler {
+  border-color: rgba(5, 5, 5, 0.438);
+  color: white;
+}
+@media only screen and (max-width:1200px) and (min-width:500px) {
+  #firstpara {
+      font-size: 100%;
+  }
 }

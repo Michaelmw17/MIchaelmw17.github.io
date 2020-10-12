@@ -29,20 +29,13 @@ An organised and open minded person with creative ideas, who is motivated to use
 _Initial landing page with fixed navbar_
 <!-- ![](img/landing_page.JPG) -->
 
-_0_
-![](img/screenshots/Screen Shot 2020-10-12 at 9.31.12 pm.png)
 
-_1_
-![](img/screenshots/Screen Shot 2020-10-12 at 9.31.25 pm.png)
-
-_2_
-![]img/screenshots/Screen Shot 2020-10-12 at 9.31.41 pm.png)
-
-_3_
-![](img/screenshots/Screen Shot 2020-10-12 at 9.31.53 pm.png) -->
-_4_
-![](img/screenshots/Screen Shot 2020-10-12 at 9.31.53 pm.png) -->
-
+<img src=".img/screenshots/Screen Shot 2020-10-12 at 9.31.12 pm.png">
+<img src="./img/screenshots/Screen Shot 2020-10-12 at 9.31.25 pm.png">
+<img src="./img/screenshots/Screen Shot 2020-10-12 at 9.31.41 pm.png">
+<img src="./img/screenshots/Screen Shot 2020-10-12 at 9.31.53 pm.png">
+<img src="./img/screenshots/Screen Shot 2020-10-12 at 9.31.53 pm.png">
+<br>
 ### Demonstration
 
 Deployed on Github pages: https://github.com/Michaelmw17/MIchaelmw17.github.io/

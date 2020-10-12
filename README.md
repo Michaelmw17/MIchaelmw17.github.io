@@ -44,10 +44,10 @@ Deployed on Github pages: https://github.com/Michaelmw17/MIchaelmw17.github.io/
 
 #### Tools
 
-- [jQueryUI!](https://jqueryui.com/autocomplete/)
 - [VScode](https://code.visualstudio.com/) - The editor of choice.
-- [jQuery](https://api.jquery.com/)
+- [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [Bootstrap](https://getbootstrap.com/)
 
 ##### Authors

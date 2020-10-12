@@ -25,17 +25,14 @@ An organised and open minded person with creative ideas, who is motivated to use
 
 
 ### Final Interface
-<!-- 
-_Initial landing page with fixed navbar_
-<!-- ![](img/landing_page.JPG) -->
-
 
 <img src=".img/screenshots/Screen Shot 2020-10-12 at 9.31.12 pm.png">
 <img src="./img/screenshots/Screen Shot 2020-10-12 at 9.31.25 pm.png">
 <img src="./img/screenshots/Screen Shot 2020-10-12 at 9.31.41 pm.png">
 <img src="./img/screenshots/Screen Shot 2020-10-12 at 9.31.53 pm.png">
-<img src="./img/screenshots/Screen Shot 2020-10-12 at 9.31.53 pm.png">
+<img src="./img/screenshots/Screen Shot 2020-10-12 at 9.32.02 pm.png">
 <br>
+
 ### Demonstration
 
 Deployed on Github pages: https://github.com/Michaelmw17/MIchaelmw17.github.io/
@@ -59,4 +56,4 @@ _Michael Watt_
 
 ##### License 
 
-- [MIT License](https://github.com/Michaelmw17/MIchaelmw17.github.io/blob/master/LICENSE)
+- [License](https://github.com/Michaelmw17/MIchaelmw17.github.io/blob/master/LICENSE)

@@ -1,6 +1,6 @@
 ## Portfolio Update
 
-As a type of user, I want to perform Portfolio Update task so that I can achieve some goals and a career change.
+As a type of user, I want to perform Dark-mode Portfolio Update task so that I can achieve some goals and a career change.
 
 ### Contents
 
@@ -11,9 +11,9 @@ As a type of user, I want to perform Portfolio Update task so that I can achieve
 
 ### User Story
 
-I am Michael Watt, I am studying Full Stack Web Development at the University of Sydney, with newly developed skills in JavaScript, CSS, HTML, node.js, ES6 and responsive web design. 
+I am Michael Watt, I am studying Full Stack Web Development at the University of Sydney, with newly developed skills in JavaScript, CSS, HTML, node.js, ES6 and responsive web design.
 
-I have completed Certificate 4 in Business Studies and have experience in customer service and business. I’m motivated to become a web developer as I really like the problem solving aspects of web design and building a website that creates a great UI and UX experience. 
+I have completed Certificate 4 in Business Studies and have experience in customer service and business. I’m motivated to become a web developer as I really like the problem solving aspects of web design and building a website that creates a great UI and UX experience.
 
 I love to learn and enjoy the team work component of web design. I understand how important it is to communicate with the team, to encourage everyone to brainstorm ideas and work through the best design approach.
 
@@ -26,11 +26,16 @@ An organised and open minded person with creative ideas, who is motivated to use
 
 ### Final Interface
 
-<img src=".img/screenshots/Screen Shot 2020-10-12 at 9.31.12 pm.png">
+<img src="./img/screenshots/Screen Shot 2020-10-12 at 9.31.12 pm.png">
+
 <img src="./img/screenshots/Screen Shot 2020-10-12 at 9.31.25 pm.png">
+
 <img src="./img/screenshots/Screen Shot 2020-10-12 at 9.31.41 pm.png">
+
 <img src="./img/screenshots/Screen Shot 2020-10-12 at 9.31.53 pm.png">
+
 <img src="./img/screenshots/Screen Shot 2020-10-12 at 9.32.02 pm.png">
+
 <br>
 
 ### Demonstration

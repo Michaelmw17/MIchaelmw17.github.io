@@ -26,22 +26,3 @@ const topFunction = () => {
 document.body.scrollTop = 0;
 document.documentElement.scrollTop = 0;
 };
-
-const formFunction = () => {
-      'use strict';
-      window.addEventListener('load', formFunction = () => {
-        // Fetch all the forms we want to apply custom Bootstrap validation styles to
-        let forms = document.getElementsByClassName('needs-validation');
-        // Loop over them and prevent submission
-        let validation = Array.prototype.filter.call(forms, formFunction = (form) => {
-          form.addEventListener('submit', formFunction = (event) => {
-            if (form.checkValidity() === false) {
-              event.preventDefault();
-              event.stopPropagation();
-            }
-            form.classList.add('was-validated');
-          }, false);
-        });
-      }, false);
-    };
-

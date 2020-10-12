@@ -59,7 +59,7 @@ body {
   background-color: rgba(44, 190, 176, 0.774);
 }
 #Full-para {
-  font-size: 1.2rem ;
+  font-size: 1.2rem;
   font-weight: 500;
 }
 #firstpara {
@@ -77,14 +77,19 @@ body {
 #hrwhite2 {
   background-color: white;
   height: 2px;
-  
 }
-#skillsHr, #experienceHr, #educationHr {
-    background-color: white;
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-
+#skillsHr,
+#experienceHr,
+#educationHr {
+  background-color: white;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
 }
 .content-body {
   line-height: 1;
@@ -125,7 +130,7 @@ body {
 .card {
   word-wrap: break-word;
 }
-h2{
+h2 {
   font-weight: 600;
   text-align: center;
   color: rgba(44, 190, 176, 0.774);
@@ -133,7 +138,7 @@ h2{
   text-transform: uppercase;
   text-align: center;
 }
-#contactH4 {
+#contactH5 {
   font-weight: 500;
   text-align: center;
   color: rgba(44, 190, 176, 0.774);
@@ -142,10 +147,10 @@ h2{
   text-align: center;
   padding-bottom: 1rem;
 }
-h4  {
-    color: rgba(44, 190, 176, 0.774);
-    margin: 0;
-    font-weight: 500;
+h4 {
+  color: rgba(44, 190, 176, 0.774);
+  margin: 0;
+  font-weight: 500;
 }
 .contact-form {
   background-color: rgba(192, 191, 191, 0.253);
@@ -154,22 +159,20 @@ h4  {
   word-wrap: break-word;
 }
 .projects {
-  background-color: rgba(192, 191, 191, 0.253);;
+  background-color: rgba(192, 191, 191, 0.253);
 }
 .skills-content {
-    padding-left: 20px;
-    flex: auto;
-    padding: 2rem;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-
+  padding-left: 20px;
+  flex: auto;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 .ul-skills {
   text-align: center;
   padding-left: 0;
   list-style: none;
-  
 }
 .li-skills {
   border-radius: 10px;
@@ -186,30 +189,48 @@ hr {
   border: none;
   height: 0.1px;
   color: rgba(77, 77, 77, 0.534);
-  background-color: rgba(77, 77, 77, 0.534); 
+  background-color: rgba(77, 77, 77, 0.534);
 }
-#para1, #para4 {
+#para1,
+#para4 {
   text-align: center;
 }
-#gitTag, #appTag {
+#gitTag1,
+#gitTag2,
+#appTag,
+#appTag1 {
   font-size: 1rem;
 }
 #footerCopy {
   color: rgba(44, 190, 176, 0.774);
 }
-.fab, .fas, .fa {
-  color:rgba(44, 190, 176, 0.774);
+.fab,
+.fas,
+.fa {
+  color: rgba(44, 190, 176, 0.774);
 }
-.fab:hover, .fas:hover, .fa:hover, #footerCopy:hover, #appTag:hover, #gitTag:hover {
+.fab:hover,
+.fas:hover,
+.fa:hover,
+#footerCopy:hover,
+#appTag:hover,
+#gitTag:hover {
   color: rgb(37, 37, 255);
 }
-#firstGitI, #firstLinkndinI, #firstChev {
+#firstGitI,
+#firstLinkndinI,
+#firstChev {
   color: white;
 }
-#firstGitI:hover, #firstLinkndinI:hover, #firstChev:hover {
+#firstGitI:hover,
+#firstLinkndinI:hover,
+#firstChev:hover {
   color: rgba(0, 0, 248, 0.596);
 }
-#fabSkills1:hover, #fabSkills2:hover, #fabSkills3:hover, #fabSkills4:hover {
+#fabSkills1:hover,
+#fabSkills2:hover,
+#fabSkills3:hover,
+#fabSkills4:hover {
   color: rgba(44, 190, 176, 0.774);
 }
 #usydIcon {
@@ -221,7 +242,7 @@ hr {
 @keyframes slidein {
   from {
     margin-left: 100%;
-    width: 300%; 
+    width: 300%;
   }
 
   to {
@@ -229,18 +250,20 @@ hr {
     width: 100%;
   }
 }
-.darkmode--activated p, .darkmode--activated li {
+.darkmode--activated p,
+.darkmode--activated li {
   color: #000;
 }
- 
+
 .button {
   isolation: isolate;
 }
- 
+
 .darkmode--activated .logo {
   mix-blend-mode: difference;
 }
-.darkmode-layer, .darkmode-toggle {
+.darkmode-layer,
+.darkmode-toggle {
   z-index: 500;
 }
 #myBtn {
@@ -248,30 +271,30 @@ hr {
   position: fixed;
   bottom: 30px;
   left: 30px;
-  z-index: 99; 
+  z-index: 99;
   border: none;
   outline: none;
-  background-color: rgba(90, 87, 87, 0.582); 
-  color: white; 
-  cursor: pointer; 
-  padding: 15px; 
-  border-radius: 19px; 
-  font-size: 1.25rem; 
+  background-color: rgba(90, 87, 87, 0.582);
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 19px;
+  font-size: 1.25rem;
 }
 #darkBtn {
-  display: none; 
-  position: fixed; 
-  bottom: 60px; 
-  left: 30px; 
-  z-index: 99; 
-  border: none; 
-  outline: none; 
-  background-color: rgba(148, 148, 148, 0.13); 
-  color: white; 
-  cursor: pointer; 
-  padding: 15px; 
-  border-radius: 10px; 
-  font-size: 1.25rem; 
+  display: none;
+  position: fixed;
+  bottom: 60px;
+  left: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: rgba(148, 148, 148, 0.13);
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 1.25rem;
 }
 #upBtn {
   color: rgb(255, 230, 0);
@@ -283,10 +306,8 @@ hr {
 #darkMode {
   color: rgba(10, 10, 10, 0.233);
 }
-@media only screen and (max-width:1200px) and (min-width:500px) {
+@media only screen and (max-width: 1200px) and (min-width: 500px) {
   #firstpara {
-      font-size: 100%;
+    font-size: 100%;
   }
-  
-
 }

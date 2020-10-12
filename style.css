@@ -145,7 +145,7 @@ h2 {
   font-size: 2.1rem;
   text-transform: uppercase;
   text-align: center;
-  padding-bottom: 1rem;
+  padding: 0.1rem;
 }
 h4 {
   color: rgba(44, 190, 176, 0.774);

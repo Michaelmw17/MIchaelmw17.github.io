@@ -12,7 +12,7 @@ body {
   font-size: 100%;
   position:relative;
   font-weight:400;
-  font-size:15px
+  font-size:16px
 }
 @import url(https://fonts.googleapis.com/css?family=Rubik:300,400,500,700);
 .navbar {
@@ -81,6 +81,9 @@ body {
   height: 2px;
 }
 #skillsHr,
+#clubHr,
+#farmHr,
+#boatHr,
 #experienceHr,
 #educationHr {
   background-color: white;
@@ -280,7 +283,9 @@ hr {
   color: white;
   cursor: pointer;
   padding: 15px;
-  border-radius: 19px;
+ width: 65px;
+  height: 65px;
+  border-radius: 50%;
   font-size: 1.25rem;
 }
 #darkBtn {

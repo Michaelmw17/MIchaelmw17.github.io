@@ -135,6 +135,16 @@ body {
 .card {
   word-wrap: break-word;
 }
+h4 {
+  font-family:Rubik,sans-serif;
+  margin:0;
+  font-weight:300;
+  padding:0;
+  color:#363940
+  }
+  a {
+  color:#5867dd
+  }
 h2 {
   font-weight: 600;
   text-align: center;
@@ -143,6 +153,31 @@ h2 {
   text-transform: uppercase;
   text-align: center;
 }
+hr {
+  border: none;
+  height: 0.1px;
+  color: rgba(77, 77, 77, 0.534);
+  background-color: rgba(77, 77, 77, 0.479);
+}
+ul {
+  padding:0;
+  margin:0
+  }
+  li {
+  list-style:none
+  }
+  a:focus,a:hover, #appTag:hover {
+    color:#f86420;
+  text-decoration:none;
+  
+  -webkit-transition:.3s ease;
+  -o-transition:.3s ease;
+  transition:.3s ease
+  }
+  a:focus {
+  outline:0
+  
+  }
 #contactH5 {
   font-weight: 500;
   text-align: center;
@@ -190,12 +225,7 @@ h2 {
   cursor: default;
   font-size: 1.9em;
 }
-hr {
-  border: none;
-  height: 0.1px;
-  color: rgba(77, 77, 77, 0.534);
-  background-color: rgba(77, 77, 77, 0.479);
-}
+
 #paraOne,
 #paraFour {
   text-align: center;
@@ -218,7 +248,7 @@ hr {
 .fas:hover,
 .fa:hover,
 #footerCopy:hover,
-#appTag:hover,
+#firstLinkndin:hover,
 #gitTag:hover {
   color: rgb(37, 37, 255);
 }
@@ -318,24 +348,6 @@ hr {
     font-size: 100%;
   }
 }
-
-
-  ul {
-  padding:0;
-  margin:0
-  }
-  li {
-  list-style:none
-  }
-  a:focus,a:hover {
-  text-decoration:none;
-  -webkit-transition:.3s ease;
-  -o-transition:.3s ease;
-  transition:.3s ease
-  }
-  a:focus {
-  outline:0
-  }
   /* img {
   max-width:100%
   } */
@@ -345,16 +357,7 @@ hr {
   color:#909196;
   font-weight:390
   }
-  h4 {
-  font-family:Rubik,sans-serif;
-  margin:0;
-  font-weight:300;
-  padding:0;
-  color:#363940
-  }
-  a {
-  color:#5867dd
-  }
+  
   .no-padding {
   padding:0!important
   }

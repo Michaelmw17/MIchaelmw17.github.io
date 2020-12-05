@@ -244,12 +244,19 @@ ul {
 .fa {
   color: rgba(44, 190, 176, 0.774);
 }
+#phoneOne,
+#mailOne,
+#githubOne {
+  color: white;
+}
 .fab:hover,
 .fas:hover,
 .fa:hover,
 #footerCopy:hover,
+#githubOne:hover,
 #firstLinkndin:hover,
-#gitTag:hover {
+#gitTag:hover,
+#phoneOne:hover  {
   color: rgb(37, 37, 255);
 }
 #firstGitI,
@@ -362,7 +369,7 @@ ul {
   padding:0!important
   }
   .footer-big {
-  padding:50px 0 65px 0
+  padding:30px 0 45px 0
   }
   .footer-big .footer-widget {
   margin-bottom:40px
@@ -452,7 +459,7 @@ ul {
         padding: 20px
       }
       
-      #portfolioImg, #portfolioImgFooter {
+      #portfolioImg, #portfolioImgFooter, #portfolioImgTop,#portfolioImgHeader {
         align-content: center;
       }
       img {
@@ -462,4 +469,20 @@ ul {
       }
       .card-deck {
         margin: 10px;
+        padding-top: 10px;
+        margin-top: 20px;
+      }
+      
+      .carousel{
+        margin-top: 50px;
+      }
+      .carousel-inner{
+        height: 100px;
+      }
+      .carousel-caption{
+        color: #fff;
+        top: 50%;
+      }
+      #carouselExampleControls {
+        padding-top: 0px;
       }

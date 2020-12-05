@@ -345,6 +345,7 @@ ul {
 }
 .navbar-dark .navbar-toggler {
   border-color: rgba(5, 5, 5, 0.438);
+  border-radius: 10px;
   color: white;
 }
 #darkMode {
@@ -485,4 +486,7 @@ ul {
       }
       #carouselExampleControls {
         padding-top: 0px;
+      }
+      #footerContact {
+        color: white;
       }

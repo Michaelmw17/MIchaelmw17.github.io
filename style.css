@@ -187,8 +187,12 @@ ul {
   text-align: center;
   padding: 0.1rem;
 }
+#clock {
+  padding-top: 15px;
+}
+
 #darkMode {
-  color: rgba(44, 190, 176, 0.774);
+  color: rgba(10, 10, 10, 0.233);
   margin: 0;
   font-weight: 500;
 }
@@ -349,9 +353,7 @@ ul {
   border-radius: 10px;
   color: white;
 }
-#darkMode {
-  color: rgba(10, 10, 10, 0.233);
-}
+
 @media only screen and (max-width: 1200px) and (min-width: 500px) {
   #firstPara {
     font-size: 100%;
@@ -497,4 +499,7 @@ ul {
       align-items: center;
       justify-content: center;
       font-size: 20px;
+    }
+    #contacts {
+      text-align: center;
     }

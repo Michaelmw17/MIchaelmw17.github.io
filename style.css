@@ -47,7 +47,7 @@ body {
   list-style: none;
 }
 .social {
-  font-size: 2em;
+  font-size: 2rem;
   color: white;
   padding: 20px;
 }
@@ -60,8 +60,8 @@ body {
   font-weight: 500;
   background-color:#f08e80;
 }
-#Full-para {
-  font-size: 1.2rem;
+#fullPara {
+  font-size: 1.5rem;
   font-weight: 500;
 }
 #firstPara {
@@ -105,6 +105,9 @@ body {
 }
 .side-content-sm {
   flex: 0 0 10%;
+}
+.row{
+  padding-top: 20px;
 }
 .card-content {
   margin: 10px;
@@ -325,7 +328,17 @@ ul {
   #firstPara {
     font-size: 100%;
   }
+  #darkMode {
+    font-size: 100%;
+  }
+
+  #fullPara {
+    font-size: 100%;
+  }
 }
+yorkSection
+
+
   /* img {
   max-width:100%
   } */
@@ -496,4 +509,9 @@ ul {
   display: inline-block;
   color: #fff;
   text-decoration: none;
+}
+#yorkSection,
+#boatSection,
+#harrisSection {
+  margin-top: 20px;
 }

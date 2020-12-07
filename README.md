@@ -44,6 +44,7 @@ Deployed on Github pages: https://michaelmw17.github.io/
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [Bootstrap](https://getbootstrap.com/)
+- [Darkmode.js](https://darkmodejs.learn.uno/)
 
 ##### Authors
 

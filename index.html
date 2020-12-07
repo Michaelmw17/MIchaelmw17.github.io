@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Portfolio</title>
-    <!-- Bootstrap CDN -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -13,11 +12,8 @@
     />
     <link rel="icon" type="image/ico" href="./img/favicon.ico" />
     <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
-      rel="stylesheet"
-    />
-    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&family=Rubik:ital,wght@0,300;0,400;0,600;1,300;1,400;1,500&display=swap" rel="stylesheet">
   </head>
   <body>
     <!-- Start Nav -->
@@ -75,64 +71,63 @@
         </header>
         <article class="intro">
           <div class="jumbotron">
-            
-                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="2000">
-                      <div class="carousel-inner">
-                        <div class="carousel-item active">
-                          <div class="carousel-caption">
-                            <!-- <h3>Boyd W.</h3> -->
-                            <img  width="80" height="80" src="./img/circle-cropped.png" id="portfolioImgHeader" alt="portfolio-Img" class="center">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" >
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="carousel-caption">
+                        <!-- <h3>Boyd W.</h3> -->
+                        <img  width="80" height="80" src="./img/circle-cropped.png" id="portfolioImgHeader" alt="portfolio-Img" class="center">
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="carousel-caption">
+                        <a
+                        class="social"
+                        href="https://github.com/Michaelmw17"
+                        target="_blank"
+                        ><i id="firstGitI" class="fa fa-github fa-2x" aria-hidden="true"></i
+                          ></a>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="carousel-caption">
+                          <!-- <h3>Randall L</h3> -->
+                          <a
+                          class="social"
+                          href="https://www.linkedin.com/in/michael-watt-6a76961b3/"
+                          target="_blank"
+                          ><i id="firstLinkndin" class="fa fa-linkedin fa-2x" aria-hidden="true"></i
+                            ></a>
                           </div>
                         </div>
-                        <div class="carousel-item">
-                          <div class="carousel-caption">
-                            <a
-                            class="social"
-                            href="https://github.com/Michaelmw17"
-                            target="_blank"
-                            ><i id="firstGitI" class="fa fa-github fa-2x" aria-hidden="true"></i
-                              ></a>
-                            </div>
-                          </div>
-                          <div class="carousel-item">
-                            <div class="carousel-caption">
-                              <!-- <h3>Randall L</h3> -->
-                              <a
-                              class="social"
-                              href="https://www.linkedin.com/in/michael-watt-6a76961b3/"
-                              target="_blank"
-                              ><i id="firstLinkndin" class="fa fa-linkedin fa-2x" aria-hidden="true"></i
-                                ></a>
-                              </div>
-                            </div>
-                          <div class="carousel-item">
-                            <div class="carousel-caption">
-                              <!-- <h3>Diane L</h3> -->
-                              <p><a href="tel:+61449620082"><i class="fas fa-phone-square fa-4x" id="phoneOne"></i></a></p>
-                            </div>
-                          </div>
-                          <div class="carousel-item">
-                            <div class="carousel-caption">
-                              <!-- <h3>Diane L</h3> -->
-                              <a href = "mailto:michaelmw17@outlook.com"><i id="mailOne" class="fas fa-envelope-square fa-4x"></i></a>
-                            </div>
-                          </div>
-                          <div class="carousel-item">
-                            <div class="carousel-caption">
-                              <!-- <h3>Diane L</h3> -->
-                              <div id="clock"></div>
-                            </div>
-                          </div>
+                      <div class="carousel-item">
+                        <div class="carousel-caption">
+                          <!-- <h3>Diane L</h3> -->
+                          <p><a href="tel:+61449620082"><i class="fas fa-phone-square fa-4x" id="phoneOne"></i></a></p>
+                        </div>
                       </div>
-                      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                      </a>
-                      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                      </a>
-                    </div>
+                      <div class="carousel-item">
+                        <div class="carousel-caption">
+                          <!-- <h3>Diane L</h3> -->
+                          <a href = "mailto:michaelmw17@outlook.com"><i id="mailOne" class="fas fa-envelope-square fa-4x"></i></a>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="carousel-caption">
+                          <!-- <h3>Diane L</h3> -->
+                          <div id="clock"></div>
+                        </div>
+                      </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
             <!-- <img  width="200" height="200" src="./img/circle-cropped.png" id="portfolioImg" alt="portfolio-Img">  -->
             <div class="jumbotron-text">
               <h1>Michael Watt</h1>
@@ -175,6 +170,12 @@
                       I would describe my self as a driven, organised and open-minded person with creative ideas, who is motivated to use my skills and knowledge in a Web Development team. I hope for an exciting career change and
                       am always up for a challenge.
                     </p>
+                    <div id="down-arrow">
+                      <span
+                        ><a href="#projects"
+                          ><i id="secondChev" class="fa fa-chevron-down" aria-hidden="true"></i></a
+                      ></span>
+                  </div>
                   </div>
                 </div>
               </div>
@@ -293,6 +294,8 @@
                         I have learned Html, CSS, Javascript, Bootstrap, jQuery, API's, Node, Express, MySQL, NoSQL, MongoDB.
                       </li>
                   </ul>
+                  <a href="https://cce.sydney.edu.au/?gclid=CjwKCAiAn7L-BRBbEiwAl9UtkGtZOiKQyHpxYBKkQTDwdRKgfc4CQIflhPCskp5NzefX5sPtHpBtNxoCYbYQAvD_BwE">
+                  <img  width="90" height="30" id="universityOfSyd" src="https://www.sydney.edu.au/etc/designs/corporate-commons/node_modules/corporate-frontend/dist/assets/img/USydLogo.svg"  alt="universityOfSyd" class="center"></a>
                 </div>
             </div>
         </section>
@@ -313,6 +316,8 @@
                           Certificate II, Skills for work and training | TAFE, Crows Nest.
                         </li>
                     </ul>
+                    <a href="https://www.tafensw.edu.au/">
+                    <img  width="100" height="23" id="tafeNsw" src="https://lh3.googleusercontent.com/MnZYnN74jE7EydWErGZFa_ltV5XN8JRkZTm8xTgMvTdPADQV3O5eXyKnB27D_Xxr22zPSg=s170" alt="tafeNsw" class="center"></a>
                   </div>
               </div>
             </article>
@@ -320,7 +325,9 @@
           <h2>Experience</h2>
             <article id="cardArticlesExperience">
           <div class="card-deck">
-              <div class="card">
+            <div class="row">
+            <div class="col-xs-12  col-sm-12 col-md-4 ">
+              <div class="card h-100">
                 <h4>Club York <span class="job-title">Bartender</span></h4><hr id="clubHr"/>
                 <div class="card-body">
                   <p class="card-text">York Bar City Bowling Club is an inner city club, eatery and bar
@@ -345,9 +352,13 @@
                                 adhered to.
                               </li>
                             </ul>
+                              <a href="https://clubyork.com.au/">
+                            <img  width="80" height="80" src="https://clubyork.com.au/content/themes/DailyPress/assets/images/logo.png" id="clubYorkImg" alt="Club-york-Img" class="center"></a>
                           </div>
                       </div>
-                <div class="card">
+                    </div>
+                    <div class="col-xs-12  col-sm-12 col-md-4">
+                <div class="card h-100">
                         <h4>Rhythm boat Sydney Harbour Cruises
                         <span class="job-title">Bartender</span></h4><hr id="boatHr"/>
                       <div class="card-body">
@@ -366,9 +377,13 @@
                                       Assisted with beverage and food service.
                                     </li>
                                 </ul>
+                              <a href="https://www.rhythmboat.com.au/">
+                            <img  width="80" height="80" id="boatsImg" src="https://scontent.fsyd8-1.fna.fbcdn.net/v/t31.0-8/14706859_1130966186979648_3397203816580878627_o.png?_nc_cat=109&ccb=2&_nc_sid=09cbfe&_nc_ohc=70JizMuDdVIAX_ptqrf&_nc_ht=scontent.fsyd8-1.fna&oh=960799ad42ed6179d6b31a3246654606&oe=5FF46BC6" class="center"></a>
                         </div>
                   </div>
-            <div class="card">
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4">
+            <div class="card h-100">
               <h4>Harris Farm Markets <span class="job-title"> Store Attendant</span></h4><hr id="farmHr"/>
               <div class="card-body">
                     <p class="card-text">Harris Farm Markets is an Australian grocery chain with 25 different
@@ -389,9 +404,13 @@
                           Trained new staff in stock handling procedures.
                         </li>
                     </ul>
+                  <a href="https://www.harrisfarm.com.au/">
+                <img  width="100" height="30" src="https://cdn.shopify.com/s/files/1/0206/9470/t/232/assets/logo_mobile.png?v=10079602471092664051" id="harrisFarm" alt="harris-farm-img" class="center"></a>
               </div>
             </div>
           </div>
+        </div>
+      </div>
       </article>
 
     <!--Footer-->
@@ -400,7 +419,6 @@
     </button>
     <footer id="footerContact" class="footer-area footer--light text-sm-left">
                 <div class="footer-big">
-                  <!-- start .container -->
                   <div class="container">
                     <div class="row">
                       <div class="col-md-3 col-sm-12 col-xs-12">
@@ -507,32 +525,11 @@
                           </div>
                         </div>
                       </div>
-                      <!-- <div class=" col-md-3 col-sm-12 col-xs-12">
-                        <div class="footer-widget">
-                          <div class="footer-menu no-padding">
-                            <h4 class="footer-widget-title">Contacts</h4>
-                            <ul>
-                              <li>
-                              <a id="footerCopy" class="github-link" href="https://github.com/Michaelmw17/MIchaelmw17.github.io"><i class="fab fa-github fa-2x"></i></a>
-                              </li>
-                              <li>
-                                <a href = "mailto:michaelmw17@outlook.com"><i class="fas fa-envelope-square fa-2x"></i></a>
-                              </li>
-                              <li>
-                                <a href="tel:+61449620082"><i class="fas fa-phone-square fa-2x"></i></a>
-                              </li>
-                              <li>
-                                <a href = "https://www.google.com/maps/place/Sydney+NSW/data=!4m2!3m1!1s0x6b129838f39a743f:0x3017d681632a850?sa=X&ved=2ahUKEwj56oj83KzsAhWBA3IKHZFTBkAQ8gEwH3oECDAQBA"><i class="fas fa-search-location fa-2x"></i></a>  
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div> -->
                     </div>
                   </div>
                 </div>
               </footer>
-                  
+              <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
     <!-- Font awesome Github/Facebook/Contact-->
     <script
       src="https://kit.fontawesome.com/77b32b6aca.js"
@@ -541,11 +538,9 @@
 
     <!-- jQuery CDN -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
-
     <script src="script.js"></script>
   </body>
 </html>

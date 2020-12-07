@@ -35,7 +35,7 @@ An organised and open minded person with creative ideas, who is motivated to use
 
 ### Demonstration
 
-Deployed on Github pages: https://github.com/Michaelmw17/MIchaelmw17.github.io/
+Deployed on Github pages: https://michaelmw17.github.io/
 
 #### Tools
 

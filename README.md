@@ -1,6 +1,6 @@
 ## Portfolio Update
 
-As a type of user, I want to perform Dark-mode Portfolio Update task so that I can achieve some goals and a career change.
+As a type of user, I want to perform the task of improving my portfolio and adding some nice features such as a clock within a carousel containing contact information for easy access and  Dark-mode, New fonts and more responsiveness to the experience section  Portfolio Update task so that I can achieve some goals and a career change.
 
 ### Contents
 
@@ -30,8 +30,6 @@ An organised and open minded person with creative ideas, who is motivated to use
 <img src="./img/screenshots/Screen-Shot2.png">
 
 <img src="./img/screenshots/Screen-Shot6.png">
-
-<img src="./img/screenshots/Screen-Shot5.png">
 
 <hr>
 

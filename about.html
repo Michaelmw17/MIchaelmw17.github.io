@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" type="image/ico" href="./img/favicon.ico" />
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&family=Rubik:ital,wght@0,300;0,400;0,600;1,300;1,400;1,500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Start Nav -->
+        
+          <nav class="navbar fixed-top navbar-light">
+                <a class="navbar-brand" href="./index.html" id="top-left-title">
+                  <img
+                    src="./img/android-chrome-192x192-removebg-preview.png"
+                    width="30"
+                    height="30"
+                    alt="Mw"
+                    loading="lazy"
+                    style="float: left; text-align: center;"
+                  />
+                  Michael Watt
+                </a>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#navbarTogglerDemo03"
+                  aria-controls="navbarTogglerDemo03"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon" style="font-size: 15px;"></span>
+                </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="about.html#about">About</a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="about.html#projects"
+                        >Projects<span class="sr-only">(current)</span></a
+                      >
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="about.html#education"
+                        >Education<span class="sr-only">(current)</span></a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" href="about.html#experienceHr">Experience</a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="about.html#footerCopy"
+                        >Contact<span class="sr-only">(current)</span></a
+                      >
+                    </li>
+                </ul>
+              </div>
+            </nav>
+        
+        <article class="intro">
+          <div class="jumbotron">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" >
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="carousel-caption">
+                        <!-- <h3>Boyd W.</h3> -->
+                        <img  width="80" height="80" src="./img/circle-cropped.png" id="portfolioImgHeader" alt="portfolio-Img" class="center">
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="carousel-caption">
+                        <a
+                        class="social"
+                        href="https://github.com/Michaelmw17"
+                        target="_blank"
+                        ><i id="firstGitI" class="fa fa-github fa-2x" aria-hidden="true"></i
+                          ></a>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="carousel-caption">
+                          <!-- <h3>Randall L</h3> -->
+                          <a
+                          class="social"
+                          href="https://www.linkedin.com/in/michael-watt-6a76961b3/"
+                          target="_blank"
+                          ><i id="firstLinkndin" class="fa fa-linkedin fa-2x" aria-hidden="true"></i
+                            ></a>
+                          </div>
+                        </div>
+                      <div class="carousel-item">
+                        <div class="carousel-caption">
+                          <!-- <h3>Diane L</h3> -->
+                          <p><a href="tel:+61449620082"><i class="fas fa-phone-square fa-4x" id="phoneOne"></i></a></p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="carousel-caption">
+                          <!-- <h3>Diane L</h3> -->
+                          <a href = "mailto:michaelmw17@outlook.com"><i id="mailOne" class="fas fa-envelope-square fa-4x"></i></a>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="carousel-caption">
+                          <div id="clock"></div>
+                        </div>
+                      </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+            <!-- <img  width="200" height="200" src="./img/circle-cropped.png" id="portfolioImg" alt="portfolio-Img">  -->
+            <div class="jumbotron-text">
+              <h1>Michael Watt</h1>
+                <!-- <h4 id="darkMode">With Dark Mode</h4> -->
+                  <p id="fullPara">Full-Stack Web Developer in Sydney, NSW.</p>
+                    <div class="jumbotron-social">
+                    </div>
+                    <div id="down-arrow">
+                      <span
+                        ><a href="#about"
+                          ><i id="firstChev" class="fa fa-chevron-down" aria-hidden="true"></i></a
+                      ></span>
+                  </div>
+                </div>
+              </div>
+          </article>
+          
+          
+          <article id="about" class="container-fluid">
+            <!-- BEGIN ABOUT -->
+            <div class="row white box-shadow">
+              <div class="main-content">
+                <div class="content-header">
+                  <a class="about"></a>
+                  <h2 id="aboutH2">About</h2>
+                  <hr id="hrWhiteTwo" />
+                </div>
+                  <div id="firstPara" class="content-body"><br/>
+                    <p id="paraOne"><i><q>Always striving to be better whatever obstacle is in my way</q></i></p>
+                    <p id="paraTwo">
+                      I am studying Full Stack Web Development at the University of Sydney. I started the course as I enjoy the challenges of coding. I've learnt  JavaScript,  Html, CSS, Bootstrap, jQuery, API's, Node, Express, MySQL, NoSQL, MongoDB  and responsive Web design with wanting to further develop my coding skills with the goal to become a Full-Stack Web Developer.
+                    </p>
+                    <br />
+                    <p id="paraThree">
+                      Currently employed in the hospitality industry whilst studying.
+                      I have completed Certificate IV in Business Studies and have experience in customer service. I’m motivated to become a Web Developer as I really like the problem-solving aspects of Web Design and building a website that creates a great UI and UX experience. <br />
+                    </p>
+                    <br />
+                    <p id="paraFour">
+                      I would describe my self as a driven, organised and open-minded person with creative ideas, who is motivated to use my skills and knowledge in a Web Development team. I hope for an exciting career change and am always up for a challenge.
+                    </p>
+                    <div id="down-arrow-one">
+                      <span
+                        ><a href="#projects"
+                          ><i id="secondChev" class="fa fa-chevron-down" aria-hidden="true"></i></a
+                      ></span>
+                  </div>
+                  </div>
+                </div>
+              </div>
+              <!-- END ABOUT -->
+            </article>
+            <hr id="skillsHr" />
+            <article id="projects" class="container">
+              <h2>Projects</h2>
+              <div class="card mb-3">
+                <div class="content-header">
+                  <a class="anchor"></a>
+                </div>
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img
+                    src="https://agr2020xman.github.io/Project_1-Basketball-News/img/basketball-removebg-preview.png"
+                    class="card-img"
+                    alt="BasketBall-Image"
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Basket News</h5>
+                      <hr />
+                      <p class="card-text">
+                        Welcome to the Basket News web app! Are you a fan of the NBA or have a
+                        favourite player? Basket News brings all this useful information,
+                        want to keep up to date on this seasons player statistics? Do
+                        you want to easily pull up some news archives about your athlete 
+                        into one place. Don't believe us? Just try it out and you'll
+                        never need to search anywhere else for your NBA stats or news!
+                      </p>
+                      <p class="card-text">
+                        <small class="text-muted"
+                        >With - Andre Grech, Rachelle Barredo. <br />
+                          <a
+                            id="gitTagThree"
+                            href="https://agr2020xman.github.io/Project_1-Basketball-News/"
+                            ><i class="fa fa-globe fa-lg" aria-hidden="true"></i> - Basket News App!</a
+                          >
+                          <br />
+                          <a
+                            id="appTag"
+                            href="https://github.com/AGr2020Xman/Project_1-Basketball-News"
+                            ><i class="fa fa-github fa-lg" aria-hidden="true"></i> - Basket News Github!</a
+                          ></small>
+                        </p>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <div class="content-header">
+              <a class="anchor"></a>
+            </div>
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img
+                src="https://business-advertisement-portal.herokuapp.com/assets/images/202a200d-dc06-4960-a219-348c189ab453_200x200.png"
+                class="card-img"
+                  alt="businessImage"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Business Advertisement Portal</h5>
+                  <hr />
+                  <p class="card-text">
+                    Advertisement portal is made by 4 students currently completing a
+                    certification in full stack web development from the University of Sydney.
+                    We are creating this website to meet our requirements and also help the end-users as
+                    well. We thought about small-to-medium enterprises (SME’s) that have a product-based business model. They have
+                    taken a huge blow as COVID-19 has bought about a recession, forcing people to reduce their expenses. The
+                    Business Advertisement Portal came into existence with the thought of helping these SME’s.
+                    Almost all of the current advertisement channels are revenue oriented, by providing a free service.
+                  </p>
+                  <p class="card-text">
+                    <small class="text-muted"
+                    >With - Aman, Felipe, Prabh. <br />
+                    <a
+                    id="gitTagTwo"
+                    href="https://business-advertisement-portal.herokuapp.com/"
+                    ><i class="fa fa-globe fa-lg" aria-hidden="true"></i> - Advertisement Portal App!</a
+                    >
+                    <br />
+                    
+                    <a
+                    id="appTagOne"
+                    href="https://github.com/prabhm512/business-advertisement-portal"
+                    ><i class="fab fa-github fa-lg"></i> - Advertisement Portal Github!
+                  </a>                </small>
+                </p>
+              </div>
+            </div>
+          </div>
+      </div>
+    </article>
+  <!--Education-->
+  
+        <section id="education" class="container">
+          <h2>Education</h2>
+          <hr id="educationHr" />
+            <div class="card">
+              <div class="card-header">
+                <h4>
+                  University of Sydney<span class="job-title"
+                    >Currently Attending</span
+                  >
+                </h4>
+              </div>
+                <div class="card-content">
+                    <p>
+                      I'm currently studying at The University of Sydney to become a Full-stack Web Developer.
+                    </p>
+                    <ul>
+                      <li>
+                        I have learned Html, CSS, Javascript, Bootstrap, jQuery, API's, Node, Express, MySQL, NoSQL, MongoDB.
+                      </li>
+                  </ul>
+                  <a href="https://cce.sydney.edu.au/?gclid=CjwKCAiAn7L-BRBbEiwAl9UtkGtZOiKQyHpxYBKkQTDwdRKgfc4CQIflhPCskp5NzefX5sPtHpBtNxoCYbYQAvD_BwE">
+                  <img  width="90" height="30" id="universityOfSyd" src="https://www.sydney.edu.au/etc/designs/corporate-commons/node_modules/corporate-frontend/dist/assets/img/USydLogo.svg"  alt="universityOfSyd" class="center"></a>
+                </div>
+            </div>
+        </section>
+          <article class="container">
+            <div class="card">
+                <div class="card-header">
+                  <h4>TAFE NSW<span class="job-title">2015-17</span></h4>
+                </div>
+                  <div class="card-content">
+                    <ul>
+                        <li>
+                          Certificate IV in Business | TAFE, Sydney 2016.
+                        </li>
+                        <li>
+                          Certificate II and III in Business | TAFE, Northern Beaches 2015.
+                        </li>
+                        <li>
+                          Certificate II, Skills for work and training | TAFE, Crows Nest.
+                        </li>
+                    </ul>
+                    <a href="https://www.tafensw.edu.au/">
+                    <img  width="100" height="23" id="tafeNsw" src="https://lh3.googleusercontent.com/MnZYnN74jE7EydWErGZFa_ltV5XN8JRkZTm8xTgMvTdPADQV3O5eXyKnB27D_Xxr22zPSg=s170" alt="tafeNsw" class="center"></a>
+                  </div>
+              </div>
+            </article>
+            <article id="cardArticlesExperience">
+            
+                <h2>Experience</h2><hr id="experienceHr" />
+          <div class="card-deck">
+            <div class="row">
+            <div id="yorkSection" class="col-xs-12  col-sm-12 col-md-4 ">
+              <div class="card h-100">
+                <h4>Club York <span class="job-title">Bartender</span></h4><hr id="clubHr"/>
+                <div class="card-body">
+                  <p class="card-text">York Bar City Bowling Club is an inner city club, eatery and bar
+                              that welcomes club members through the doors to experience our food
+                              and warm atmosphere.</p>
+                            <ul>
+                              <li>Managed the beverage service and customer requests.</li>
+                              <li>
+                                Maintained stock, managing and restocking pre-shift, reported on
+                                loss or damage.
+                              </li>
+                              <li>Handled cash, credit card and EFT facilities.</li>
+                              <li>
+                                Participated in team meetings and other work-related meetings.
+                              </li>
+                              <li>
+                                Ensured licensing laws and legislative requirements were adhered
+                                to.
+                              </li>
+                              <li>
+                                Ensuring Workplace Health and Safety procedures and processes are
+                                adhered to.
+                              </li>
+                            </ul>
+                              <a href="https://clubyork.com.au/">
+                            <img  width="80" height="80" src="https://clubyork.com.au/content/themes/DailyPress/assets/images/logo.png" id="clubYorkImg" alt="Club-york-Img" class="center"></a>
+                          </div>
+                      </div>
+                    </div>
+                    <div id="boatSection" class="col-xs-12  col-sm-12 col-md-4">
+                <div class="card h-100">
+                        <h4>Rhythm boat Sydney Harbour Cruises
+                        <span class="job-title">Bartender</span></h4>
+                        <hr id="boatHr"/>
+                      <div class="card-body">
+                            <p class="card-text">Rhythm boat Sydney Harbour Cruises are famous for musical, comedy
+                                and variety shows on their dinner cruises as well as a popular
+                                wedding, party and function venue.</p>
+                                <ul>
+                                    <li>
+                                      Prepared the outlet for the delivery of a range of functions,
+                                      events and services from set up, running and pack down.
+                                    </li>
+                                    <li>
+                                      Handled cash, credit card and EFT facilities.
+                                    </li>
+                                    <li>
+                                      Assisted with beverage and food service.
+                                    </li>
+                                </ul>
+                              <a href="https://www.rhythmboat.com.au/">
+                            <img  width="80" height="80" id="boatsImg" src="https://scontent.fsyd8-1.fna.fbcdn.net/v/t31.0-8/14706859_1130966186979648_3397203816580878627_o.png?_nc_cat=109&ccb=2&_nc_sid=09cbfe&_nc_ohc=70JizMuDdVIAX_ptqrf&_nc_ht=scontent.fsyd8-1.fna&oh=960799ad42ed6179d6b31a3246654606&oe=5FF46BC6" class="center" alt="RhythmBoat"></a>
+                        </div>
+                  </div>
+                </div>
+                <div id="harrisSection" class="col-xs-12 col-sm-12 col-md-4">
+            <div class="card h-100">
+              <h4>Harris Farm Markets <span class="job-title"> Store Attendant</span></h4><hr id="farmHr"/>
+              <div class="card-body">
+                    <p class="card-text">Harris Farm Markets is an Australian grocery chain with 25 different
+                      locations in New South Wales.
+                      The supermarkets specialise in fruit, vegetables, delicatessen and
+                      other grocery items.
+                    </p>
+                    <ul>
+                        <li>
+                          Assisted customers both face to face and over the telephone
+                          regarding enquiries and orders.
+                        </li>
+                        <li>
+                          Assisted with stock takes, stock deliveries and movements from
+                          cool room to shop floor and operated the pallet jack.
+                        </li>
+                        <li>
+                          Trained new staff in stock handling procedures.
+                        </li>
+                    </ul>
+                  <a href="https://www.harrisfarm.com.au/">
+                <img  width="100" height="30" src="https://cdn.shopify.com/s/files/1/0206/9470/t/232/assets/logo_mobile.png?v=10079602471092664051" id="harrisFarm" alt="harris-farm-img" class="center"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </article>
+
+    <!--Footer-->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      <i id="upBtn" class="fa fa-chevron-up" aria-hidden="true"></i>
+    </button>
+    <footer id="footerContact" class="footer-area footer--light text-sm-left">
+                <div class="footer-big">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-3 col-sm-12 col-xs-12">
+                        <div class="footer-widget">
+                          <div id="contacts" class="footer-menu ">
+                            <h4 class="footer-widget-title">Contacts</h4>
+                            <ul>
+                              <li>
+                              <a id="footerCopy" class="github-link" href="https://github.com/Michaelmw17/MIchaelmw17.github.io"><i class="fab fa-github fa-2x"></i></a>
+                              </li>
+                              <li>
+                                <a href = "mailto:michaelmw17@outlook.com"><i class="fas fa-envelope-square fa-2x"></i></a>
+                              </li>
+                              <li>
+                                <a href="tel:+61449620082"><i class="fas fa-phone-square fa-2x"></i></a>
+                              </li>
+                              <li>
+                                <a href = "https://www.google.com/maps/place/Sydney+NSW/data=!4m2!3m1!1s0x6b129838f39a743f:0x3017d681632a850?sa=X&ved=2ahUKEwj56oj83KzsAhWBA3IKHZFTBkAQ8gEwH3oECDAQBA"><i class="fas fa-search-location fa-2x"></i></a>  
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3 col-sm-6 col-xs-6">
+                        <div class="footer-widget">
+                          <div class="footer-menu footer-menu--1">
+                            <h4 class="footer-widget-title">Skills</h4>
+                            <ul>
+                              <li>
+                                <a href="#">Bootstrap</a>
+                              </li>
+                              <li>
+                                <a href="#">JavaScript</a>
+                              </li>
+                              <li>
+                                <a href="#">Html</a>
+                              </li>
+                              <li>
+                                <a href="#">CSS</a>
+                              </li>
+                              <li>
+                                <a href="#">Node.js</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class=" col-md-3 col-sm-6 col-xs-12">
+                        <div class="footer-widget">
+                          <div class="footer-menu">
+                            <h4 class="footer-widget-title">Skills</h4>
+                            <ul>
+                              <li>
+                                <a href="#">MySQL</a>
+                              </li>
+                              <li>
+                                <a href="#">API's</a>
+                              </li>
+                              <li>
+                                <a href="#">NoSQL</a>
+                              </li>
+                              <li>
+                                <a href="#">Express</a>
+                              </li>
+                              <li>
+                                <a href="#">MongoDB</a>
+                              </li>
+                              <!-- <li>
+                                <a href="#"><i id="fabSkills2" class="fab fa-js fa-lg"></i></a>
+                              </li>
+                              <li>
+                                <a href="#"><i id="fabSkills1" class="fab fa-html5 fa-lg"></i></a>
+                              </li>
+                              <li>
+                                <a href="#"><i id="fabSkills3" class="fab fa-css3-alt fa-lg"></i></a>
+                              </li>
+                              <li>
+                                <a href="#"><i id="fabSkills3"  class="fab fa-node fa-lg"></i></a>
+                              </li>
+                              <li>
+                                <a href="#"> <i id="fabSkills3" class="fas fa-database fa-lg"></i></a>
+                              </li>
+                              <li>
+                                <a href="#"><i id="fabSkills4" class="fab fa-bootstrap fa-lg"></i></a>
+                              </li> -->
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xs-6 col-md-3 col-sm-12">
+                        <div class="footer-widget">
+                          <div class="widget-about">
+                            <img  width="50" height="50" src="./img/circle-cropped.png" id="portfolioImgFooter" alt="portfolio-Img" class="center">
+                            <p><i><q>Always striving to be better whatever obstacle in my way</q></i></p>
+                                  <ul class="list-unstyled mb-0">
+                                      <li >
+                                            <a
+                                            id="footerCopyWebsite"
+                                            class="github-link"
+                                            href="https://github.com/Michaelmw17/MIchaelmw17.github.io"
+                                            ><small><i>Copyright &copy; Michael's Website</i></small></a><br />
+                                        </li>
+                                </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </footer>
+              <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+    <!-- Font awesome Github/Facebook/Contact-->
+    <script
+      src="https://kit.fontawesome.com/77b32b6aca.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+    <script src="./app.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

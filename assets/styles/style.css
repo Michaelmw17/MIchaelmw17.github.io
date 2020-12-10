@@ -158,11 +158,16 @@ nav {
   background-color:white;
   word-wrap: break-word;
   box-sizing: border-box;
-  border: 1px solid rgb(0,171,242);
+  /* border: 1px solid rgb(0,171,242); */
+  border: none;
   margin-top: 10px;
 }
 
+.card-header {
+  background-color: white;
+  border-color: white;
 
+}
 
 .card-body {
   font-size: 1rem;

@@ -6,30 +6,48 @@
   scroll-behavior: smooth;
 }
 
+
 body {
   font-family: 'Lato', sans-serif;
-  background-color: white;
+  background-color: #fff;
   margin: 0;
   font-size: 100%;
   position:relative;
   font-weight:400;
-  font-size:16px
+  font-size:18px
+}
+#logo {
+  font-family: "Lobster", cursive;
+  font-weight: lighter;
+  font-size: 2rem;
+}
+
+#top-left-title {
+  color: white;
+  font-size: 18px;
+  font-family: "Lobster", cursive;
+  letter-spacing: 0.1rem;
 }
 
 .navbar {
-  background-color:rgba(44, 190, 176, 0.774);
+  background-color:#0081f2d8;
+  font-size: 18px;
 }
+.navbar-brand {
+  font-size: 18px;
+}
+
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  min-height: 10vh;
+  min-height: 7vh;
 }
 
 .jumbotron {
-  margin-top: 110px;
+  margin-top: 100px;
   text-align: center;
-  background-color: rgba(44, 190, 176, 0.774);
+  background-color: #0097f2;
   display: flex;
   flex-direction: column;
 }
@@ -66,7 +84,7 @@ nav {
   padding: 35px;
   font-size: 1rem;
   font-weight: 500;
-  background-color:#f08e80;
+  background-color:#0097f2;
 }
 #fullPara {
   font-size: 1.5rem;
@@ -77,8 +95,8 @@ nav {
   opacity: 0.9;
   word-wrap: break-word;
   font-size: 140%;
-  font-weight: 500;
-  letter-spacing: 1px;
+  font-weight: 800;
+  letter-spacing: 1.2px;
   line-height: 180%;
 }
 #aboutH2 {
@@ -100,15 +118,13 @@ nav {
   background-image: linear-gradient(
     to right,
     rgba(0, 0, 0, 0),
-    rgba(0, 0, 0, 0.75),
+    rgb(0,171,242),
     rgba(0, 0, 0, 0)
   );
 }
-
-
-#experienceHr {
-  margin: 10px;
-
+#experienceHr, #educationHr, #skillsHr {
+  margin: 1px 0px 0px 1px;
+  padding: 1px;
 }
 .content-body {
   line-height: 1;
@@ -123,17 +139,8 @@ nav {
 .row{
   padding-top: 20px;
 }
-.card-content {
-  margin: 10px;
-  padding: 10px;
-  margin-left: 30px;
-  font-size: 1rem;
-  line-height: 150%;
-}
-.card-body {
-  font-size: 1rem;
-  font-weight: 500;
-}
+
+
 .container {
   margin-top: 20px;
   margin-bottom: 10px;
@@ -148,25 +155,34 @@ nav {
   display: flex;
   justify-content: center;
   flex-direction: column;
-
-}
-.card {
+  background-color:white;
   word-wrap: break-word;
+  box-sizing: border-box;
+  border: 1px solid rgb(0,171,242);
+  margin-top: 10px;
 }
-h4 {
-  font-family:Rubik,sans-serif;
-  margin:0;
-  font-weight:300;
-  padding:0;
-  color:#363940
-  }
+
+
+
+.card-body {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.card-content {
+  margin: 10px;
+  padding: 10px;
+  margin-left: 30px;
+  font-size: 1rem;
+  line-height: 150%;
+}
+
   a {
-  color:#5867dd
+ color: #0097f2;
   }
 h2 {
   font-weight: 600;
   text-align: center;
-  color: #f08e80;
+  color: #0097f2;
   font-size: 2.1rem;
   text-transform: uppercase;
   text-align: center;
@@ -194,13 +210,12 @@ ul {
   a:focus {
   outline:0;
   }
-#contactH5 {
-  font-weight: 500;
-  text-align: center;
-  color: rgba(44, 190, 176, 0.774);
-  font-size: 2.1rem;
+h4 {
+  font-weight: 200;
+  font-family:Rubik,sans-serif;
+  font-size: 1.5rem;
   text-transform: uppercase;
-  text-align: center;
+  color: black;
   padding: 0.1rem;
 }
 #clock {
@@ -229,23 +244,6 @@ ul {
   justify-content: center;
   flex-direction: column;
 }
-.ul-skills {
-  text-align: center;
-  padding-left: 0;
-  list-style: none;
-}
-.li-skills {
-  border-radius: 10px;
-  display: inline-block;
-  margin: 7px;
-  padding: 5px 10px;
-  color: white;
-  background: rgba(44, 190, 176, 0.774);
-  list-style: none;
-  cursor: default;
-  font-size: 1.9em;
-}
-
 #paraOne,
 #paraFour {
   text-align: center;
@@ -257,12 +255,12 @@ ul {
   font-size: 1rem;
 }
 #footerCopy, #footerCopyWebsite {
-  color: rgba(44, 190, 176, 0.774);
+  color: white;
 }
 .fab,
 .fas,
 .fa {
-  color: rgba(44, 190, 176, 0.774);
+  color: #0097f2;
 }
 #phoneOne,
 #mailOne,
@@ -290,12 +288,6 @@ ul {
 #firstLinkndinI:hover,
 #firstChev:hover {
   color: rgba(0, 0, 248, 0.596);
-}
-#fabSkills1:hover,
-#fabSkills2:hover,
-#fabSkills3:hover,
-#fabSkills4:hover {
-  color: rgba(44, 190, 176, 0.774);
 }
 #usydIcon {
   float: right;
@@ -355,15 +347,20 @@ ul {
   #footer-area  {
   font-size:16px;
   line-height:30px;
-  color:#909196;
+  color: white;
   font-weight:400
+  }
+  .footer-widget-title {
+    color: white  ;
   }
   
   .no-padding {
   padding:0!important
   }
   .footer-big {
-  padding:30px 0 45px 0
+  padding:30px 0 45px 0;
+  background: rgb(110, 109, 109);
+  margin-top: 20px;
   }
   .footer-big .footer-widget {
   margin-bottom:40px
@@ -372,7 +369,7 @@ ul {
   background:#e7e8ed;
   }
   .footer-big .footer-menu ul li a,.footer-big p,.footer-big ul li {
-  color:#898b96;
+  color: white;
   }
   .footer-menu {
   padding-left:48px;
@@ -400,8 +397,8 @@ ul {
   .mini-footer p {
   margin:0;
   line-height:26px;
-  font-size:15px;
-  color:#999
+  font-size:16px;
+  color:black
   }
   .mini-footer p a {
   color:#5867dd
@@ -461,8 +458,8 @@ ul {
       }
       .card-deck {
         margin: 10px;
-        padding-top: 10px;
-        margin-top: 20px;
+        padding-top: 5px;
+        margin-top: 5px;
       }
       
       .carousel{
@@ -497,9 +494,7 @@ ul {
       transition: transform 2s ease;
       transition: transform 2s ease, -webkit-transform 2s ease;
     }
-    .card {
-      box-sizing: border-box;
-    }
+   
     #harrisFarm,
     #universityOfSyd,
     #tafeNsw,

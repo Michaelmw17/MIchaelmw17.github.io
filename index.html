@@ -3,7 +3,7 @@
   <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./mainstyles.css" />
+        <link rel="stylesheet" href="./assets/styles/mainstyles.css" />
         <link
         href="https://fonts.googleapis.com/css2?family=Heebo:wght@500;700&family=Lobster&display=swap"
         rel="stylesheet"
@@ -17,6 +17,10 @@
         <title>Portfolio</title>
     </head>
     <body>
+            <video autoplay muted loop id="myVideo">
+            <source src="./assets/video/3d_ocean_1590675653.mov" type="video/mp4">
+            </video>
+
         <main>
         <section class="landing">
             <nav class="navbar fixed-top navbar-light">
@@ -28,7 +32,7 @@
                         alt="Mw"
                         loading="lazy"
                     />
-                    Michael Watt
+                    Michael's Website
                     </a>
                     <button
                     class="navbar-toggler"
@@ -57,7 +61,7 @@
                         >
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link active" href="about.html#experienceHr">Experience</a>
+                        <a class="nav-link active" href="about.html#cardArticlesExperience">Experience</a>
                         </li>
                         <li class="nav-item active">
                         <a class="nav-link" href="about.html#footerCopy"
@@ -67,7 +71,9 @@
                     </ul>
                 </div>
                 </nav>
+                <div class="container">
             <h2 class="big-text">Welcome</h2>
+            <p><a href="about.html"> <button class="custom-btn btn-4"><span>About me</span></button></a></p>
         </section>
         </main>
                 <div class="intro">
@@ -83,6 +89,7 @@
                         </h1>
                     </div>
                 </div>
+            </div>
                 <div class="slider"></div>
 
     
@@ -95,6 +102,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <script src="./app.js"></script>
-  </body>
+    <script src="./assets/js/app.js"></script>
+    <script src="./assets/js/script.js"></script>
+    
+    <script src="js/libs/jsband-min.js"></script>
+    <script src="js/blob-min.js"></script>  
+    </body>
 </html>
